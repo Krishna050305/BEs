@@ -2,15 +2,28 @@ export const SENIORS = [
   {
     id: 1,
     name: 'Shreya Gawade',
-    quote: "The stage was my second home, and you were my family.",
+    quote: "3 Minta zaliiiii....",
     role: "VIPRA",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-man-acting-on-a-theatrical-stage-41460-large.mp4",
+    video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777654664/Gawade-final_ldz97r.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276034/IMG20260108173908_wi7bdi.jpg",
     size: "large",
     gallery: [
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276034/IMG20260108173908_wi7bdi.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276252/IMG_20260414_140649_vfno2x.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276052/IMG20260104193711_pwcns2.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776613896/IMG20260201172135_csa2jk.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776613896/IMG20260208132853_czaisy.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776613896/IMG20260104200225_xrr4jq.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776613896/IMG20260222073727_xj0usj.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614221/WhatsApp_Image_2026-04-19_at_21.25.37_yjvasc.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614221/WhatsApp_Image_2026-04-19_at_21.25.37_1_cf0vzp.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614221/WhatsApp_Image_2026-04-19_at_21.25.36_qc1arv.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777649856/WhatsApp_Image_2026-05-01_at_21.05.06_kcm0yf.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614431/WhatsApp_Image_2026-04-19_at_21.29.40_jhftzl.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614490/WhatsApp_Image_2026-04-19_at_21.29.40_1_mdrm76.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614431/WhatsApp_Image_2026-04-19_at_21.29.40_2_q3usp1.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777649856/WhatsApp_Image_2026-05-01_at_21.05.08_r3we4j.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777649856/WhatsApp_Image_2026-05-01_at_21.05.07_km8lrx.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652343/20241121_201534_hvcxr0.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652341/20241225_202334_cz4xas.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652340/IMG_4178_w1qvkg.jpg"
     ]
   },
   {
@@ -22,8 +35,19 @@ export const SENIORS = [
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276252/IMG_20260414_140649_vfno2x.jpg",
     size: "small",
     gallery: [
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276252/IMG_20260414_140649_vfno2x.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276034/IMG20260108173908_wi7bdi.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614711/IMG20260201134601_rbl465.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614710/IMG20251218161150_hros59.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614710/WhatsApp_Image_2026-04-19_at_21.29.02_1_k5zets.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614709/WhatsApp_Image_2026-04-19_at_21.29.02_kauknc.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614708/WhatsApp_Image_2026-04-19_at_21.29.03_1_t7dpjb.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614708/WhatsApp_Image_2026-04-19_at_21.29.03_2_xawzv1.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614710/WhatsApp_Image_2026-04-19_at_21.29.03_z5y3ka.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652688/IMG_0123_okjmia.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652689/IMG_4103_jipe3b.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653036/IMG20250208161916_ivpiwu.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652690/IMG_3616_oo6yft.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652693/20241128_215027_x8kpap.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653030/IMG20250210155742_nhijyk.jpg"
     ]
   },
   {
@@ -35,7 +59,11 @@ export const SENIORS = [
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276052/IMG20260104193711_pwcns2.jpg",
     size: "small",
     gallery: [
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276052/IMG20260104193711_pwcns2.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653113/IMG20260204210606_j6p5cq.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653108/IMG-20250207-WA0132_lxm73o.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653108/20241123_225534_e3adft.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653106/IMG20260213124748_dhndn7.jpg",
+
     ]
   },
   {
@@ -47,7 +75,21 @@ export const SENIORS = [
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314935/PXL_20241207_123154906_nlvsca.jpg",
     size: "medium",
     gallery: [
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314935/PXL_20241207_123154906_nlvsca.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615009/WhatsApp_Image_2026-04-19_at_21.23.12_wqdmwl.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615010/WhatsApp_Image_2026-04-19_at_21.23.13_gjy3fy.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615012/WhatsApp_Image_2026-04-19_at_16.05.46_cqp10z.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615011/WhatsApp_Image_2026-04-19_at_21.23.12_1_v7ssvg.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615037/WhatsApp_Image_2026-04-19_at_21.28.26_1_utajaz.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615043/WhatsApp_Image_2026-04-19_at_21.28.26_ugrvt4.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615044/WhatsApp_Image_2026-04-19_at_21.28.27_ulmk4q.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615045/IMG20260104172527_e5ta2m.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615047/IMG20260111143907_rspovo.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615059/WhatsApp_Image_2026-04-19_at_21.37.22_c3kyth.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653242/IMG_3632_uvgcpf.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653241/IMG20241123225808_oul4b3.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653239/IMG20250122172931_fddu4h.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653373/IMG20250207154611_mrh2dd.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653372/IMG20250213074447_wfs152.jpg"
     ]
   },
   {
@@ -59,7 +101,16 @@ export const SENIORS = [
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314657/IMG_4164_qhb0sy.jpg",
     size: "small",
     gallery: [
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314657/IMG_4164_qhb0sy.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653528/PXL_20250118_095645862_1_iagpah.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653513/20250109_210538_wjdliy.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653664/IMG20250202210302_yazwls.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653493/PXL_20241204_120958876_cjfnzh.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653591/20250129_175754_wkhxlf.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653491/IMG20250118105130_apydpc.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653488/20250128_202359_vaalg6.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653487/IMG_20250125_153843_zi138x.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653487/IMG_20250203_161333_mmbbfy.jpg"
+
     ]
   },
   {
@@ -130,7 +181,10 @@ export const SENIORS = [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776599508/IMG-20241220-WA0071_shlz23.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776599506/IMG-20241220-WA0041_knqzue.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776599509/IMG-20241220-WA0079_zhfzij.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776599676/IMG-20241014-WA0004_nhwmoj.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776599676/IMG-20241014-WA0004_nhwmoj.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653785/20241116_141414_nzsrbh.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653783/20241120_190411_iyvkly.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653859/20250207_210032_supljs.jpg"
     ]
   },
   {
@@ -167,7 +221,18 @@ export const SENIORS = [
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276374/IMG_20260206_161325202_HDR_ghgpqx.jpg",
     size: "medium",
     gallery: [
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276374/IMG_20260206_161325202_HDR_ghgpqx.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654068/IMG20260213205730_glnimb.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654071/IMG_20241227_052458539_BURST000_COVER_w1bng4.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654066/PXL_20241214_101108271_snjhmg.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654031/20250120_231233_p9zg4t.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654026/IMG_5273_hlxw4i.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654024/IMG20260131065229_01_g8wot5.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654023/WhatsApp_Image_2026-04-19_at_16.02.33_ensan6.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654022/IMG_0373_ed5igx.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654020/20241215_102820_djjbzw.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654018/WhatsApp_Image_2026-04-19_at_16.02.34_bnau7q.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654016/WhatsApp_Image_2026-04-19_at_16.02.34_1_ptor1o.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654182/PXL_20250118_095645862_mmrnt4.jpg"
     ]
   },
   {
@@ -179,7 +244,10 @@ export const SENIORS = [
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369022/Screenshot_2026-04-17_011944_xchy1u.png",
     size: "small",
     gallery: [
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369022/Screenshot_2026-04-17_011944_xchy1u.png"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654299/20241214_143006_zavzkm.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654297/20241204_181701_q1ay0t.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654295/20241214_162250_rsv44z.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654293/20250211_212945_i03peh.jpg"
     ]
   },
   {
@@ -203,7 +271,10 @@ export const SENIORS = [
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776315170/20250105_135850_1_l0tnht.jpg",
     size: "medium",
     gallery: [
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776315170/20250105_135850_1_l0tnht.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654594/IMG20260217135511_zoxlhu.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654592/IMG20260415142621_qewluy.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654467/IMG20251208195042_hakoby.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654465/WhatsApp_Image_2026-04-19_at_21.28.26_1_kvgbc5.jpg"
     ]
   },
   {
