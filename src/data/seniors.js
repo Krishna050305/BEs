@@ -47,7 +47,9 @@ export const SENIORS = [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653036/IMG20250208161916_ivpiwu.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652690/IMG_3616_oo6yft.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652693/20241128_215027_x8kpap.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653030/IMG20250210155742_nhijyk.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653030/IMG20250210155742_nhijyk.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777697122/WhatsApp_Image_2026-05-02_at_09.34.35_z7x1rx.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777697121/WhatsApp_Image_2026-05-02_at_09.34.56_zcsxcv.jpg"
     ]
   },
   {
@@ -69,9 +71,9 @@ export const SENIORS = [
   {
     id: 4,
     name: 'Nehal Shivane',
-    quote: "Every end is a new beginning. Let's make it count.",
+    quote: "MIDA Raraaa!!",
     role: "AAI",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-woman-writing-in-a-notebook-42616-large.mp4",
+    video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777698204/nehal-final_pgvmk1.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314935/PXL_20241207_123154906_nlvsca.jpg",
     size: "medium",
     gallery: [
@@ -89,7 +91,12 @@ export const SENIORS = [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653241/IMG20241123225808_oul4b3.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653239/IMG20250122172931_fddu4h.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653373/IMG20250207154611_mrh2dd.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653372/IMG20250213074447_wfs152.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653372/IMG20250213074447_wfs152.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777697278/WhatsApp_Image_2026-05-02_at_09.31.28_c1k0pd.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777697926/IMG_0308_wqkhuc.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777697926/IMG_5147_tsrhir.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777697925/PXL_20241231_092930085.TS_exported_870_1735668304670_vmaspf.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653240/20241120_190411_1_cfjnjt.jpg"
     ]
   },
   {
@@ -109,7 +116,10 @@ export const SENIORS = [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653491/IMG20250118105130_apydpc.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653488/20250128_202359_vaalg6.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653487/IMG_20250125_153843_zi138x.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653487/IMG_20250203_161333_mmbbfy.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653487/IMG_20250203_161333_mmbbfy.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777697018/WhatsApp_Image_2026-05-02_at_09.33.42_r9jwlu.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777697017/WhatsApp_Image_2026-05-02_at_09.33.07_tggq4n.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777697017/WhatsApp_Image_2026-05-02_at_09.32.42_osrd4c.jpg"
 
     ]
   },
@@ -215,9 +225,9 @@ export const SENIORS = [
   {
     id: 10,
     name: 'Srushti Thakur',
-    quote: "Me koi chalti phirti taxi nahi hu ki seeti bajayi aur bhaagi chali aaungi",
+    quote: "Aurat hu taxi nahi jo seeti bajayega aur bhaagi chali aaungi!",
     role: "Baiko",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-man-polishing-a-metal-object-42625-large.mp4",
+    video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777696740/Srushti-final_e1m14y.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276374/IMG_20260206_161325202_HDR_ghgpqx.jpg",
     size: "medium",
     gallery: [
@@ -232,7 +242,11 @@ export const SENIORS = [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654020/20241215_102820_djjbzw.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654018/WhatsApp_Image_2026-04-19_at_16.02.34_bnau7q.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654016/WhatsApp_Image_2026-04-19_at_16.02.34_1_ptor1o.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654182/PXL_20250118_095645862_mmrnt4.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654182/PXL_20250118_095645862_mmrnt4.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777696837/WhatsApp_Image_2026-05-02_at_09.30.48_tkzjdv.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777696837/WhatsApp_Image_2026-05-02_at_09.31.26_lxtabj.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777696835/WhatsApp_Image_2026-05-02_at_09.37.56_dl4iil.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777696836/WhatsApp_Image_2026-05-02_at_09.37.59_hyl43h.jpg"
     ]
   },
   {
@@ -274,7 +288,15 @@ export const SENIORS = [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654594/IMG20260217135511_zoxlhu.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654592/IMG20260415142621_qewluy.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654467/IMG20251208195042_hakoby.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654465/WhatsApp_Image_2026-04-19_at_21.28.26_1_kvgbc5.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654465/WhatsApp_Image_2026-04-19_at_21.28.26_1_kvgbc5.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777698377/WhatsApp_Image_2026-05-02_at_09.30.34_urhdwn.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777698376/WhatsApp_Image_2026-05-02_at_09.31.27_zfrkvt.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777698375/WhatsApp_Image_2026-05-02_at_09.30.49_zc796r.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777698374/WhatsApp_Image_2026-05-02_at_09.31.26_dc6oyr.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777698373/WhatsApp_Image_2026-05-02_at_09.31.23_cwvlt9.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777698614/WhatsApp_Image_2026-05-02_at_10.39.33_sp9f7q.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777698613/WhatsApp_Image_2026-05-02_at_10.38.27_grfgi3.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777698612/WhatsApp_Image_2026-05-02_at_10.39.41_taqjy4.jpg"
     ]
   },
   {
