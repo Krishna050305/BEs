@@ -1,93 +1,74 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import MoodRecapPlayer from './MoodRecapPlayer';
+import React from 'react';
+import { motion } from 'framer-motion';
 
-const MOODS = [
-  {
-    id: 'chaos',
-    title: 'Chaos',
-    description: 'The beautiful mess we called college.',
-    color: '#ff3b30',
-    thumbnail: '/assets/mood_chaos.png',
-    media: [
-      { type: 'image', url: 'https://images.unsplash.com/photo-1514525253361-bee8a187449a?auto=format&fit=crop&q=80&w=800', caption: 'Opening Night jitters.' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1541532131948-3ecbb2198ed6?auto=format&fit=crop&q=80&w=800', caption: 'Backstage madness.' },
-      { type: 'video', url: 'https://assets.mixkit.co/videos/preview/mixkit-celebration-smoke-with-confetti-and-fireworks-2641-large.mp4', caption: 'The victory lap!' }
-    ]
-  },
-  {
-    id: 'late-nights',
-    title: 'Late Nights',
-    description: 'When the best ideas were born.',
-    color: '#5856d6',
-    thumbnail: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800',
-    media: [
-      { type: 'image', url: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800', caption: '3 AM study sessions.' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=800', caption: 'Project deadlines.' }
-    ]
-  },
-  {
-    id: 'victory',
-    title: 'Victory',
-    description: 'Defining moments of triumph.',
-    color: '#ff9500',
-    thumbnail: '/assets/mood_victory.png',
-    media: [
-      { type: 'image', url: 'https://images.unsplash.com/photo-1526676037777-05a232554f77?auto=format&fit=crop&q=80&w=800', caption: 'The trophy is ours.' }
-    ]
-  },
-  {
-    id: 'nostalgia',
-    title: 'Nostalgia',
-    description: 'Forever etched in our hearts.',
-    color: '#af52de',
-    thumbnail: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=800',
-    media: [
-      { type: 'image', url: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&q=80&w=800', caption: 'Where it all started.' }
-    ]
-  }
-];
-
-const MoodSection = () => {
-  const [activeMood, setActiveMood] = useState(null);
+const MoodSection = ({ mood }) => {
+  if (!mood) return null;
 
   return (
-    <section id="journey" className="py-24 px-8 overflow-hidden">
-      <div className="max-w-7xl mx-auto mb-12">
-        <h2 className="text-4xl font-bold tracking-tight mb-2">Our Vibes</h2>
-        <p className="text-white/40 font-medium">Click a mood to relive the memories.</p>
-      </div>
+    <section 
+      id={mood.id} 
+      className="relative min-h-screen py-32 px-6 md:px-12 border-b border-white/5 overflow-hidden"
+    >
+      {/* Background Accent */}
+      <div 
+        className="absolute top-0 right-0 w-[50%] h-[50%] opacity-10 blur-[150px] rounded-full pointer-events-none"
+        style={{ background: mood.color }}
+      />
 
-      <div className="flex gap-6 overflow-x-auto pb-8 hide-scrollbar snap-x snap-mandatory">
-        {MOODS.map((mood) => (
-          <motion.div
-            key={mood.id}
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            onClick={() => setActiveMood(mood)}
-            className="flex-shrink-0 w-80 md:w-[400px] aspect-video bg-surface rounded-2xl overflow-hidden cursor-pointer group snap-center border border-white/5"
+      <div className="max-w-7xl mx-auto relative z-10">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+          className="mb-20"
+        >
+          <h2 
+            className="text-7xl md:text-9xl mb-4 tracking-tighter"
+            style={{ color: mood.color }}
           >
-            <div className="relative w-full h-full">
-              <img src={mood.thumbnail} alt={mood.title} className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-              <div className="absolute bottom-6 left-6">
-                <h3 className="text-2xl font-bold mb-1" style={{ color: mood.color }}>{mood.title}</h3>
-                <p className="text-sm text-white/60">{mood.description}</p>
-              </div>
-            </div>
-          </motion.div>
-        ))}
-      </div>
+            {mood.title}
+          </h2>
+          <p className="text-xl md:text-3xl text-white/60 max-w-2xl font-medium leading-tight">
+            {mood.description}
+          </p>
+        </motion.div>
 
-      <AnimatePresence>
-        {activeMood && (
-          <MoodRecapPlayer 
-            mood={activeMood} 
-            media={activeMood.media} 
-            onClose={() => setActiveMood(null)} 
-          />
-        )}
-      </AnimatePresence>
+        {/* Gallery / Content Area */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {mood.media.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.1, duration: 0.8 }}
+              className={`relative rounded-3xl overflow-hidden aspect-[4/5] bg-surface border border-white/5 group ${
+                idx === 0 ? 'md:col-span-2 md:aspect-video' : ''
+              }`}
+            >
+              {item.type === 'video' ? (
+                <video 
+                  autoPlay muted loop playsInline 
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000"
+                >
+                  <source src={item.url} type="video/mp4" />
+                </video>
+              ) : (
+                <img 
+                  src={item.url} 
+                  alt={item.caption} 
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105" 
+                />
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute bottom-8 left-8 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
+                <p className="text-white/60 text-sm font-medium tracking-wide">{item.caption}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 };

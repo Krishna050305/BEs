@@ -4,70 +4,56 @@ import { Play } from 'lucide-react';
 
 const FinalAct = () => {
   return (
-    <section id="final-act" className="py-24 px-8 bg-gradient-to-b from-background to-black">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <motion.span
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-xs font-bold uppercase tracking-[0.5em] text-accent-victory mb-4 block"
-          >
-            The Masterpiece
-          </motion.span>
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="text-5xl md:text-7xl font-extrabold tracking-tighter"
-          >
-            Tu Hai Kahaan!
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.4 }}
-            className="max-w-2xl mx-auto mt-6 text-white/50 text-lg"
-          >
-            Our path to the finals. A story of resilience, rhythm, and reality.
-          </motion.p>
-        </div>
+    <section id="masterpiece" className="py-32 px-6 md:px-12 bg-background relative overflow-hidden">
+      {/* Background Glow */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[80%] h-[40%] bg-accent-masterpiece/10 blur-[120px] rounded-full pointer-events-none" />
 
+      <div className="max-w-7xl mx-auto text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+          className="mb-16"
+        >
+          <span className="text-accent-masterpiece text-sm font-bold tracking-[0.5em] uppercase mb-4 block">
+            THE MASTERPIECE
+          </span>
+          <h2 className="text-7xl md:text-9xl font-display mb-6 tracking-tight">
+            Tu Hai Kahaan!
+          </h2>
+          <p className="text-white/40 text-lg md:text-xl max-w-2xl mx-auto font-medium leading-relaxed">
+            Our path to the finals. A story of resilience, rhythm, and reality.
+          </p>
+        </motion.div>
+
+        {/* Video Player */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-          className="relative group cursor-pointer"
+          className="relative w-full max-w-6xl mx-auto aspect-video rounded-[2.5rem] overflow-hidden bg-surface border border-white/10 group cursor-pointer shadow-2xl"
         >
-          {/* CinemaScope Container */}
-          <div className="aspect-cinema w-full overflow-hidden rounded-[2rem] border border-white/10 glass shadow-[0_0_100px_rgba(255,204,0,0.1)]">
-            <video 
-              autoPlay 
-              muted 
-              loop 
-              playsInline 
-              className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-[2s] ease-out shadow-inner"
-            >
-              <source src="https://assets.mixkit.co/videos/preview/mixkit-smoke-in-the-theatrical-spotlight-41458-large.mp4" type="video/mp4" />
-            </video>
-            
-            {/* Theatrical Overlays */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/60" />
-            <div className="absolute inset-0 border-[40px] border-black opacity-20 pointer-events-none" />
-            
-            {/* Play Button Overlay */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-24 h-24 rounded-full glass flex items-center justify-center group-hover:scale-110 group-hover:bg-white group-hover:text-black transition-all duration-500">
-                <Play size={40} className="ml-2" fill="currentColor" />
-              </div>
-            </div>
-
-            {/* Stage Light Effect */}
-            <div className="absolute -top-1/2 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-accent-victory/20 blur-[120px] rounded-full opacity-0 group-hover:opacity-40 transition-opacity duration-1000" />
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=1200" 
+              alt="Video Thumbnail" 
+              className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-1000"
+            />
           </div>
+
+          <div className="absolute inset-0 flex items-center justify-center z-10">
+            <motion.div 
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="w-24 h-24 md:w-32 md:h-32 bg-white rounded-full flex items-center justify-center shadow-2xl transition-transform"
+            >
+              <Play fill="black" size={48} className="ml-2 text-black" />
+            </motion.div>
+          </div>
+
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60" />
         </motion.div>
       </div>
     </section>
