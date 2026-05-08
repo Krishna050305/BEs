@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { useNavigate, Routes, Route } from 'react-router-dom';
 import CurtainIntro from './components/CurtainIntro';
 import Hero from './components/Hero';
 import MoodModal from './components/MoodModal';
@@ -9,6 +9,8 @@ import FinalAct from './components/FinalAct';
 import Footer from './components/Footer';
 import CharacterGallery from './components/CharacterGallery';
 import Navbar from './components/Navbar';
+import ProfilePage from './components/ProfilePage';
+import { X } from 'lucide-react'; // If needed, but not really
 
 const MOODS_DATA = [
   {
@@ -58,6 +60,7 @@ const MOODS_DATA = [
 ];
 
 function App() {
+  const navigate = useNavigate();
   const [showCurtain, setShowCurtain] = useState(true);
   const [isMoodModalOpen, setIsMoodModalOpen] = useState(false);
   const [selectedMoodId, setSelectedMoodId] = useState(null);
@@ -68,6 +71,7 @@ function App() {
   const handleGoHome = () => {
     setSelectedMoodId(null);
     setCurrentView('home');
+    navigate('/');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -83,6 +87,7 @@ function App() {
     } else {
       setSelectedMoodId(null);
       setCurrentView(view);
+      navigate('/');
       window.scrollTo({ top: 0 });
     }
   };
@@ -102,8 +107,7 @@ function App() {
   );
 
   return (
-    <Router>
-      <div className="bg-background text-white selection:bg-white/20">
+    <div className="bg-background text-white selection:bg-white/20">
         {showCurtain && (
           <CurtainIntro onFinish={() => setShowCurtain(false)} />
         )}
@@ -112,40 +116,47 @@ function App() {
           {/* Navbar — always visible after curtain */}
           <Navbar onStartJourney={() => setIsMoodModalOpen(true)} onNavClick={handleNavClick} />
 
-          {/* HOME view */}
-          {currentView === 'home' && (
-            <div className="h-screen overflow-hidden">
-              <Hero onStartJourney={() => setIsMoodModalOpen(true)} />
-            </div>
-          )}
+          <Routes>
+            <Route path="/profile/:id" element={<ProfilePage />} />
+            <Route path="/" element={
+              <>
+                {/* HOME view */}
+                {currentView === 'home' && (
+                  <div className="h-screen overflow-hidden">
+                    <Hero onStartJourney={() => setIsMoodModalOpen(true)} />
+                  </div>
+                )}
 
-          {/* MOOD view */}
-          {currentView === 'mood' && selectedMood && (
-            <>
-              <MoodSection mood={selectedMood} />
-              <CharacterGallery />
-              <GoBackButton />
-              <Footer />
-            </>
-          )}
+                {/* MOOD view */}
+                {currentView === 'mood' && selectedMood && (
+                  <>
+                    <MoodSection mood={selectedMood} />
+                    <CharacterGallery />
+                    <GoBackButton />
+                    <Footer />
+                  </>
+                )}
 
-          {/* GALLERY view */}
-          {currentView === 'gallery' && (
-            <>
-              <UnitedWeRock />
-              <GoBackButton />
-              <Footer />
-            </>
-          )}
+                {/* GALLERY view */}
+                {currentView === 'gallery' && (
+                  <>
+                    <UnitedWeRock />
+                    <GoBackButton />
+                    <Footer />
+                  </>
+                )}
 
-          {/* FINAL ACT view */}
-          {currentView === 'finalact' && (
-            <>
-              <FinalAct />
-              <GoBackButton />
-              <Footer />
-            </>
-          )}
+                {/* FINAL ACT view */}
+                {currentView === 'finalact' && (
+                  <>
+                    <FinalAct />
+                    <GoBackButton />
+                    <Footer />
+                  </>
+                )}
+              </>
+            } />
+          </Routes>
 
           <MoodModal 
             isOpen={isMoodModalOpen} 
@@ -154,8 +165,7 @@ function App() {
           />
         </main>
       </div>
-    </Router>
-  );
+    );
 }
 
 export default App;

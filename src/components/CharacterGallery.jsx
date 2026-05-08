@@ -118,7 +118,7 @@ const CharacterGallery = () => {
                       onClick={() => navigate(`/profile/${selectedSenior.id}`)}
                       className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-full font-bold text-sm hover:scale-105 transition-transform"
                     >
-                      Connect <ExternalLink size={16} />
+                      Profile <ExternalLink size={16} />
                     </button>
                   </div>
                 </div>
