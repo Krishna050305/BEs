@@ -3,11 +3,17 @@ import { motion } from 'framer-motion';
 
 const GroupPhotos = () => {
   const photos = [
-    { url: '/assets/group1.png', size: 'large' },
-    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1776275550/IMG20260228171916_ymey80.jpg', size: 'small' },
-    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1776275550/IMG20260228171916_ymey80.jpg', size: 'small' },
-    { url: '/assets/group2.png', size: 'medium' },
-    { url: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800', size: 'small' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224642/IMG-20260506-WA0050_syatyk.jpg', size: 'large' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224633/IMG-20260506-WA0027_ygiscl.jpg', size: 'small' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224638/IMG-20260506-WA0044_rwidzv.jpg', size: 'small' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224641/IMG-20260506-WA0045_it7ifu.jpg', size: 'medium' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224644/IMG-20260506-WA0052_jyq99v.jpg', size: 'large' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224642/IMG-20260506-WA0050_syatyk.jpg', size: 'large' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224642/IMG-20260506-WA0050_syatyk.jpg', size: 'large' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224642/IMG-20260506-WA0050_syatyk.jpg', size: 'large' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224642/IMG-20260506-WA0050_syatyk.jpg', size: 'large' },
+    { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224642/IMG-20260506-WA0050_syatyk.jpg', size: 'large' },
+
   ];
 
   return (
@@ -43,13 +49,13 @@ const GroupPhotos = () => {
                 ${photo.size === 'medium' ? 'col-span-2' : ''}
               `}
             >
-              <img 
-                src={photo.url} 
-                alt="Group Memory" 
-                className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-110" 
+              <img
+                src={photo.url}
+                alt="Group Memory"
+                className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              
+
               <div className="absolute inset-0 border-0 group-hover:border-[1px] border-white/20 transition-all duration-500 rounded-[2rem] pointer-events-none" />
             </motion.div>
           ))}
