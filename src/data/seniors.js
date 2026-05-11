@@ -382,6 +382,7 @@ export const SENIORS = [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224020/IMG_4138_o7efxs.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224028/IMG_20260425_163912829_HDR_i7mdbt.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224033/20241130_161449_vhz8x7.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778519726/IMG-20260508-WA0053_zpn5oi.jpg"
       
 
     ]
@@ -453,7 +454,7 @@ export const SENIORS = [
     name: 'Raghav Zanwar',
     quote: "Transformation is the ultimate reward.",
     role: "Genda Phool",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-woman-applying-makeup-42630-large.mp4",
+    video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778521460/raghav-final_qdeevh.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369173/Screenshot_2026-04-17_012233_iebn7c.png",
     size: "small",
     songs: [
@@ -462,7 +463,20 @@ export const SENIORS = [
       { id: 3, title: "Song 3", duration: "0:00", url: "PASTE_URL_HERE" }
     ],
     gallery: [
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369173/Screenshot_2026-04-17_012233_iebn7c.png"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778498796/IMG-20241220-WA0050_gj5wqg.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778498796/IMG-20260508-WA0032_po2ld5.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778498795/IMG-20260508-WA0025_wj3b12.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778498796/IMG-20241220-WA0029_znudos.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778498796/IMG-20260508-WA0034_uvtp2l.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778498796/IMG-20260508-WA0030_xgu0st.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778519207/IMG_20241225_223339792_HDR_1_ahjmy3.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778519408/IMG-20260508-WA0028_hnvig2.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778519570/IMG-20260508-WA0024_gp3svw.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778520271/WhatsApp_Image_2026-05-11_at_22.49.01_u3b5vf.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778520271/WhatsApp_Image_2026-05-11_at_22.49.44_2_imxepm.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778520269/WhatsApp_Image_2026-05-11_at_22.49.44_fb6kpk.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778520366/WhatsApp_Image_2026-05-11_at_22.55.51_ki0e7f.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778520928/WhatsApp_Image_2026-05-11_at_23.03.50_gyz2z4.jpg"
     ]
   },
   {
