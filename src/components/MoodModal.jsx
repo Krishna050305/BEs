@@ -24,7 +24,7 @@ const MOOD_OPTIONS = [
     title: 'Victory',
     label: '🟡 Victory',
     description: '"Defining moments of triumph."',
-    image: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525058/WhatsApp_Image_2026-05-11_at_23.36.27_ax6igk.jpg',
+    image: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778526286/WhatsApp_Image_2026-05-12_at_00.34.16_tnydj9.jpg',
     color: 'var(--color-accent-victory)'
   },
   {
