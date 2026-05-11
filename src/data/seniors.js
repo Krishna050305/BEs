@@ -7,6 +7,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777654664/Gawade-final_ldz97r.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276034/IMG20260108173908_wi7bdi.jpg",
     size: "large",
+    songs: [
+      { id: 1, title: "Money Money", duration: "4:20", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533505/MONEY_MONEY__Full_Video___Yo_Yo_Honey_Singh__Ajay_Devgn__Jacqueline_F__Riteish_D___Bhushan_K__RAID_2_48k_tbsmgw.mp3" },
+      { id: 2, title: "Turururu Chalu anako", duration: "5:16", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533498/Turururu_Chalu_Nako_48k_xn97rg.mp3" },
+      { id: 3, title: "Chandra", duration: "5:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533488/Chandra_Official_Song___Chandramukhi___Marathi_Song_2022___Ajay_-_Atul_feat._Shreya_Ghoshal___Amruta_48k_dvzmok.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776613896/IMG20260201172135_csa2jk.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776613896/IMG20260208132853_czaisy.jpg",
@@ -23,7 +28,8 @@ export const SENIORS = [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777649856/WhatsApp_Image_2026-05-01_at_21.05.07_km8lrx.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652343/20241121_201534_hvcxr0.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652341/20241225_202334_cz4xas.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652340/IMG_4178_w1qvkg.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777652340/IMG_4178_w1qvkg.jpg",
+      
     ]
   },
   {
@@ -34,6 +40,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777973879/Nishi-final_etgy9j.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276252/IMG_20260414_140649_vfno2x.jpg",
     size: "small",
+    songs: [
+      { id: 1, title: "Hanikarak Bapu", duration: "5:09", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533060/Haanikaarak_Bapu___Aamir_Khan___Pritam___Amitabh_B___Sarwar___Sartaz_Khan___Dangal___Full_Video_48k_mjelne.mp3" },
+      { id: 2, title: "Oappu Can't dance", duration: "4:17", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533050/Full_Video__Pappu_Can_t_Dance___Jaane_Tu_Ya_Jaane_Na___Imran_Khan___A.R._Rahman_48k_xjdaos.mp3" },
+      { id: 3, title: "Chokra Jawan", duration: "5:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533050/Full_Video__Pappu_Can_t_Dance___Jaane_Tu_Ya_Jaane_Na___Imran_Khan___A.R._Rahman_48k_xjdaos.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614711/IMG20260201134601_rbl465.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614710/IMG20251218161150_hros59.jpg",
@@ -61,6 +72,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777974024/prithvi-final_eqqiwa.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276052/IMG20260104193711_pwcns2.jpg",
     size: "small",
+    songs: [
+      { id: 1, title: "Aadat se Majboor", duration: "4:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533377/Aadat_Se_Majboor_-_Full_Song___Ladies_vs_Ricky_Bahl___Ranveer_Singh___Anushka_Sharma___Benny_Dayal_48k_lwxufx.mp3" },
+      { id: 2, title: "Fa9la", duration: "1:50", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533363/Fa9la_-_Flipperachi__Prod._by_DJ_Outlaw___Official_Audio____%D9%81%D8%B5%D9%84%D8%A9_-_%D9%81%D9%84%D9%8A%D8%A8%D8%B1%D8%A7%D8%AA%D8%B4%D9%8A_48k_vvinnf.mp3" },
+      { id: 3, title: "Hirwa Nisarga", duration: "5:20", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533361/Hirwa_nisarga_with_lyrics___%E0%A4%B9%E0%A4%BF%E0%A4%B0%E0%A4%B5%E0%A4%BE_%E0%A4%A8%E0%A4%BF%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%97____Sonu_Nigam___Sachin_Pilgoankar___Ashok_Saraf_48k_ls61eh.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653113/IMG20260204210606_j6p5cq.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653108/IMG-20250207-WA0132_lxm73o.jpg",
@@ -86,6 +102,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777698204/nehal-final_pgvmk1.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314935/PXL_20241207_123154906_nlvsca.jpg",
     size: "medium",
+    songs: [
+      { id: 1, title: "Aai mala pausat jau de", duration: "6:00", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778534138/Mala_Pawasat_Jau_De___%E0%A4%86%E0%A4%88_%E0%A4%AE%E0%A4%B2%E0%A4%BE_%E0%A4%AA%E0%A4%BE%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%A4_%E0%A4%9C%E0%A4%BE%E0%A4%8A_%E0%A4%A6%E0%A5%87___Marathi_Rain_Song_Jingle_Toons_128k_umhw6w.mp3" },
+      { id: 2, title: "Dream Girl", duration: "6:16", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778534092/Dream_Girl_with_lyrics___%E0%A4%A1%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE_%E0%A4%97%E0%A4%B0%E0%A5%8D%E0%A4%B2_%E0%A4%97%E0%A4%BE%E0%A4%A8%E0%A5%87_%E0%A4%95%E0%A5%87_%E0%A4%AC%E0%A5%8B%E0%A4%B2___Dream_Girl___Hema_Malini___Dharmendra_128k_ryqnwb.mp3" },
+      { id: 3, title: "Jadoo Ki Jhappi", duration: "3:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778534083/Jadoo_Ki_Jhappi___Mika_Singh___Neha_Kakkar___Ramaiya_Vastavaiya___2013_48k_gfbeus.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615009/WhatsApp_Image_2026-04-19_at_21.23.12_wqdmwl.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776615010/WhatsApp_Image_2026-04-19_at_21.23.13_gjy3fy.jpg",
@@ -117,6 +138,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778223670/chepe_final_s44ual.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314657/IMG_4164_qhb0sy.jpg",
     size: "small",
+    songs: [
+      { id: 1, title: "Kase Sartil", duration: "4:10", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533228/Kase_Sartil_Saye_-_Marathi_Song___Marathi_Lyrical_Video_-_Sandeep_Khare_Kavita___Fountain_Music_48k_t4axdi.mp3" },
+      { id: 2, title: "Chippi Chippi", duration: "4:08", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533218/chipi_chipi_chapa_chapa_dubi_dubi_daba_daba_48k_hh6zj3.mp3" },
+      { id: 3, title: "Pune Rap", duration: "4:27", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533305/Pune_RAP_Song_feat._Shreyash_Jadhav__The_King_JD____Superhit_Marathi_Songs___%E0%A4%AE%E0%A4%B0%E0%A4%BE%E0%A4%A0%E0%A5%80_%E0%A4%97%E0%A4%BE%E0%A4%A3%E0%A5%80_48k_xv1glg.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653528/PXL_20250118_095645862_1_iagpah.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777653513/20250109_210538_wjdliy.jpg",
@@ -146,6 +172,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776596621/rinit-final_fq7eab.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776370843/WhatsApp_Image_2026-04-17_at_01.48.43_djp6a0.jpg",
     size: "small",
+    songs: [
+      { id: 1, title: "I ma do my Thiing", duration: "3:13", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778531987/Karan_Aujla___Ikky_-_I_ma_Do_My_Thiiing__Official_Audio__48k_i86egj.mp3" },
+      { id: 2, title: "Billo Rani", duration: "5:50", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778531967/_Billo_Rani__LYRICAL___Dhan_Dhana_Dhan_Goal__John_Abraham___Pritam___Anand_Raaj_Anand__Richa_Sharma_48k_jymuze.mp3" },
+      { id: 3, title: "Thug Le", duration: "3:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778531932/Thug_Le_Song___Ladies_vs_Ricky_Bahl___Ranveer_Singh__Anushka_Sharma___Vishal_Dadlani___Shweta_Pandit_48k_e4o2pv.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776596784/IMG-20241220-WA0052_qfigj6.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776596784/WhatsApp_Image_2026-04-19_at_16.03.23_1_bv9lth.jpg",
@@ -174,6 +205,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776595920/Mira-final_ce3plg.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776277116/IMG_20241227_134311695_HDR_oho34u.jpg",
     size: "small",
+    songs: [
+      { id: 1, title: "You Belong With me", duration: "3:50", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530679/Taylor_Swift_-_You_Belong_With_Me__Lyrics__48k_zubvre.mp3" },
+      { id: 2, title: "Shikari", duration: "2:43", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530679/Shikari___Massom_Sharma___Ashu_Twinkle___Sahil_Sangwan___Sheetal_Sangwan___Haryanvi_Song_48k_gzhcbn.mp3" },
+      { id: 3, title: "Hey Sexy Lady", duration: "3:33", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530679/Shaggy_-_Hey_Sexy_Lady_ft._Brian___Tony_Gold_48k_eg0rav.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776597772/WhatsApp_Image_2026-04-19_at_16.50.02_3_lrrxhs.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776597783/WhatsApp_Image_2026-04-19_at_16.50.03_1_wbixxv.jpg",
@@ -202,6 +238,11 @@ export const SENIORS = [
     video: "https://assets.mixkit.co/videos/preview/mixkit-woman-working-with-fabrics-on-a-table-42624-large.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776368422/IMG_20260221_163249965_HDR_vzquo7.jpg",
     size: "small",
+    songs: [
+      { id: 1, title: "Bora Bora", duration: "2:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533995/AP_Dhillon_ft._Ayra_Starr_-_Bora_Bora__Official_Music_Video__ft._Ayra_Starr_128k_lczl05.mp3" },
+      { id: 2, title: "Darling", duration: "3:30", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533988/Darling_-_Lyrical_Video___7_Khoon_Maaf___Priyanka_Chopra___Usha_Uthup__Rekha_Bhardwaj___Gulzar_128k_owr9be.mp3" },
+      { id: 3, title: "sasa to sasa", duration: "3:30", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533962/Sasa_To_Sasa_Ki_Kapus_Jasa_-_Marathi_Balgeet_For_Kids_with_english_subtitles_128k_dropol.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776599497/IMG_0968_j6t2mc.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776599498/IMG_20241207_143149071_HDR_e617d8.jpg",
@@ -230,6 +271,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776595931/gore-final_acwf3k.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776275631/IMG_20260214_184914483_HDR_c5lihf.jpg",
     size: "large",
+    songs: [
+      { id: 1, title: "Chiggy-Wiggy", duration: "5:10", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530429/LYRICAL__Chiggy_Wiggy___Blue____Kylie_Minogue__Akshay_Kumar___Sonu_Nigam___A.R._Rahman_48k_cyi1zu.mp3" },
+      { id: 2, title: "Gori Gori", duration: "3:50", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530428/Gori_Gori__Full_Song__Main_Hoon_Na___Shahrukh_Khan___Farah_Khan___T-series_48k_ujxada.mp3" },
+      { id: 3, title: "Pee Loon", duration: "5:00", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530590/_Pee_Loon__Lyrical_Song___Once_Upon_A_Time_in_Mumbai___Pritam___Emraan_Hashmi__Prachi_Desai_48k_vrg9wa.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776597140/WhatsApp_Image_2026-04-19_at_16.40.30_tqmbmm.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776597139/WhatsApp_Image_2026-04-19_at_16.40.30_2_z1jk75.jpg",
@@ -255,6 +301,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777696740/Srushti-final_e1m14y.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276374/IMG_20260206_161325202_HDR_ghgpqx.jpg",
     size: "medium",
+    songs: [
+      { id: 1, title: "Dil Mera Mufat Ka", duration: "4.54", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778529547/_Dil_Mera_Muft_Ka__Full_Song___Agent_Vinod___Saif_Ali_Khan__Kareena_Kapoor___Pritam_48k_efvnt4.mp3" },
+      { id: 2, title: "Banku Bhaiya ", duration: "3.57", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778529546/Banku_Bhaiya_Full_Song___Bhoothnath___Amitabh_Bachchan___Sukhwinder___Javed_Akhtar___Vishal-Sheykhar_48k_nyc94o.mp3" },
+      { id: 3, title: "Ashiyaan", duration: "3.49", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778529546/Aashiyan_-_Barfi___Ranbir_Kapoor___Priyanka_Chopra___Pritam___Shreya_Ghoshal___Nikhil_Paul_George_48k_ezgeol.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654068/IMG20260213205730_glnimb.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654071/IMG_20241227_052458539_BURST000_COVER_w1bng4.jpg",
@@ -282,6 +333,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778221266/Anuj_final_sgxpiv.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369022/Screenshot_2026-04-17_011944_xchy1u.png",
     size: "small",
+    songs: [
+      { id: 1, title: "Aaj kal", duration: "4:06", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533684/Aaj_Kal_Zindagi_Full_Video_-_Wake_Up_Sid_Ranbir_Kapoor__Konkona_Sen_Shankar_Mahadevan_48k_sdtwsa.mp3" },
+      { id: 2, title: "Humka Peeni Hai", duration: "3:10", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533665/Humka_Peeni_Hai__Full_Song__Dabangg___Salman_Khan__Sonakshi_Sinha_48k_rr7f4m.mp3" },
+      { id: 3, title: "Zara Zara", duration: "3:30", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533658/Zara_Zara_Bahekta_Hai___JalRaj___RHTDM___Male_Version___Latest_Hindi_Cover_2020_48k_bjjdmf.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654299/20241214_143006_zavzkm.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654297/20241204_181701_q1ay0t.jpg",
@@ -309,6 +365,11 @@ export const SENIORS = [
     video: "https://assets.mixkit.co/videos/preview/mixkit-man-working-with-wood-tools-42627-large.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314938/20241130_161449_qscc78.jpg",
     size: "small",
+    songs: [
+      { id: 1, title: "Munna Bada Pyaara", duration: "4:15", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533772/Munna_Bada_Pyaara_Ammi_Ka_Dulara_HD_Video_Song___Kishore_Kumar_Old_Song___Musafir_1957_48k_t6xv9o.mp3" },
+      { id: 2, title: "Cheel cheel cheelake", duration: "3:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533767/%E0%A4%95%E0%A4%BF%E0%A4%B6%E0%A5%8B%E0%A4%B0_%E0%A4%95%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%B0_%E0%A4%95%E0%A4%BE_%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BE%E0%A4%B8%E0%A4%BF%E0%A4%95_%E0%A4%95%E0%A5%89%E0%A4%AE%E0%A5%87%E0%A4%A1%E0%A5%80_%E0%A4%B8%E0%A5%89%E0%A4%82%E0%A4%97__HD__%E0%A4%9B%E0%A4%BF%E0%A4%B2_%E0%A4%9B%E0%A4%BF%E0%A4%B2_%E0%A4%9A%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE_%E0%A4%95%E0%A5%87___Half_Ticket__1962__60_s_Hits_Hindi_Songs_48k_lxwkul.mp3" },
+      { id: 3, title: "Marz", duration: "4:00", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533909/Marz_-_Official_Video___The_Yellow_Diary___Latest_Hit_Song_2018_48k_ltmaga.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778223983/WhatsApp_Image_2026-05-08_at_12.33.37_azzjpw.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778223994/WhatsApp_Image_2026-05-02_at_09.37.12_ft9wez.jpg",
@@ -333,6 +394,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777725106/Amulya-final_peps9m.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776315170/20250105_135850_1_l0tnht.jpg",
     size: "medium",
+    songs: [
+      { id: 1, title: "Besharmi ki Height", duration: "4:16", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778531406/Besharmi_Ki_Height___Full_Video_Song___Main_Tera_Hero___Varun_Dhawan__Ileana_D_Cruz__Nargis_Fakhri_48k_ytmoap.mp3" },
+      { id: 2, title: "Chunari Chunari", duration: "5:00", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778531406/Chunnari_Chunnari___Biwi_No.1___Salman_Khan___Sushmita_Sen___Abhijeet_Bhattacharya___Anuradha_Sriram_48k_cvoegu.mp3" },
+      { id: 3, title: "Choti Si Pyarisi Nanhisi Aai Koi Parri", duration: "3:06", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778531406/Choti_Si_Pyarisi_Nanhisi_Aai_Koi_Parri_-_Male___Udit_Narayan___Venkatesh___90_s_Hindi_Song_48k_vvoyra.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654594/IMG20260217135511_zoxlhu.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777654592/IMG20260415142621_qewluy.jpg",
@@ -360,6 +426,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777725740/Sanchi-final_vpdrmf.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776315372/IMG_0479_yuqzum.jpg",
     size: "small",
+    songs: [
+      { id: 1, title: "Gulaboo", duration: "5:00", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778531782/Gulaabo_-_Full_Video__Shaandaar___Alia_Bhatt___Shahid_Kapoor___Vishal_Dadlani___Amit_Trivedi_48k_ty2rz7.mp3" },
+      { id: 2, title: "Ziddi Dil", duration: "4:50", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778531780/Ziddi_Dil_-_Lyrical_Video___Mary_Kom___Vishal_Dadlani___Priyanka_Chopra___HD_48k_cx2zyh.mp3" },
+      { id: 3, title: "Dhaakad", duration: "2:30", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778531762/Dhaakad_-_Dangal___Aamir_Khan___Pritam___Amitabh_Bhattacharya___Raftaar_48k_fsrmmu.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777725721/IMG-20260502-WA0135_ycbeej.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777725721/WhatsApp_Image_2026-05-02_at_09.34.11_szlcaj.jpg",
@@ -385,6 +456,11 @@ export const SENIORS = [
     video: "https://assets.mixkit.co/videos/preview/mixkit-woman-applying-makeup-42630-large.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369173/Screenshot_2026-04-17_012233_iebn7c.png",
     size: "small",
+    songs: [
+      { id: 1, title: "Song 1", duration: "0:00", url: "PASTE_URL_HERE" },
+      { id: 2, title: "Song 2", duration: "0:00", url: "PASTE_URL_HERE" },
+      { id: 3, title: "Song 3", duration: "0:00", url: "PASTE_URL_HERE" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369173/Screenshot_2026-04-17_012233_iebn7c.png"
     ]
@@ -397,6 +473,11 @@ export const SENIORS = [
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776370352/Highlight-purti_zlpan2.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369341/WhatsApp_Image_2026-04-17_at_01.25.10_lwhtyk.jpg",
     size: "small",
+    songs: [
+      { id: 1, title: "Sheila Ki Jawani", duration: "4:30", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778534266/_Sheila_Ki_Jawani__Full_Song___Tees_Maar_Khan___Katrina_Kaif___Vishal_Dadlani__Sunidhi_Chauhan_128k_gyr3n7.mp3" },
+      { id: 2, title: "Abhi Na Jao Chodkar", duration: "5:44", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778534261/Abhi_Na_Jao_Chhodkar___World_Music_Day_Concert_24___Sourendro-Soumyojit_128k_icsq4y.mp3" },
+      { id: 3, title: "Hangover", duration: "5:00", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778534247/Hangover_Full_Video_Song___Kick___Salman_Khan__Jacqueline_Fernandez___Meet_Bros_Anjjan_128k_wqsvgn.mp3" }
+    ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778219318/IMG_20241224_220909412_HDR_eena4l.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778219309/IMG-20260502-WA0019_kbzjma.jpg",

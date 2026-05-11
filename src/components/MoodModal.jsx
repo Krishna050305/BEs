@@ -8,7 +8,7 @@ const MOOD_OPTIONS = [
     title: 'Chaos',
     label: '🔴 Chaos',
     description: '"The beautiful mess we called college."',
-    image: 'https://images.unsplash.com/photo-1514525253361-bee8a187449a?auto=format&fit=crop&q=80&w=800',
+    image: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778524575/WhatsApp_Image_2026-05-06_at_00.44.48_2_rvr2of.jpg',
     color: 'var(--color-accent-chaos)'
   },
   {
@@ -16,7 +16,7 @@ const MOOD_OPTIONS = [
     title: 'Late Nights',
     label: '🟣 Late Nights',
     description: '"When the best ideas were born."',
-    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800',
+    image: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778524901/WhatsApp_Image_2026-05-12_at_00.02.15_nwfu59.jpg',
     color: 'var(--color-accent-nights)'
   },
   {
@@ -24,7 +24,7 @@ const MOOD_OPTIONS = [
     title: 'Victory',
     label: '🟡 Victory',
     description: '"Defining moments of triumph."',
-    image: 'https://images.unsplash.com/photo-1526676037777-05a232554f77?auto=format&fit=crop&q=80&w=800',
+    image: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525058/WhatsApp_Image_2026-05-11_at_23.36.27_ax6igk.jpg',
     color: 'var(--color-accent-victory)'
   },
   {
@@ -32,7 +32,7 @@ const MOOD_OPTIONS = [
     title: 'Nostalgia',
     label: '🟣 Nostalgia',
     description: '"Forever etched."',
-    image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=800',
+    image: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525031/WhatsApp_Image_2026-05-06_at_01.04.09_1_qpav9p.jpg',
     color: 'var(--color-accent-nostalgia)'
   }
 ];

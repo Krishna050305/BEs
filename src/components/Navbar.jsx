@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Navbar = ({ onStartJourney, onNavClick }) => {
   const navLinks = [
-    { label: 'JOURNEY', view: 'journey' },
+    { label: "SOMETHING'S FOR YOU", view: 'special' },
     { label: 'GALLERY', view: 'gallery' },
     { label: 'FINAL ACT', view: 'finalact' },
   ];

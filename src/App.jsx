@@ -10,18 +10,22 @@ import Footer from './components/Footer';
 import CharacterGallery from './components/CharacterGallery';
 import Navbar from './components/Navbar';
 import ProfilePage from './components/ProfilePage';
-import { X } from 'lucide-react'; // If needed, but not really
+import DedicatedPlaylist from './components/DedicatedPlaylist';
+import { X } from 'lucide-react';
 
 const MOODS_DATA = [
   {
     id: 'chaos',
     title: 'Chaos',
-    description: 'The beautiful mess we called college.',
+    description: 'The beautiful mess we called Art Circle.',
     color: 'var(--color-accent-chaos)',
     media: [
-      { type: 'image', url: '/assets/mood_chaos.png', caption: 'The early days of madness.' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1541532131948-3ecbb2198ed6?auto=format&fit=crop&q=80&w=800', caption: 'Unfiltered energy.' },
-      { type: 'video', url: 'https://assets.mixkit.co/videos/preview/mixkit-stars-in-the-night-sky-out-of-focus-9721-large.mp4', caption: 'A blur of memories.' }
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525151/WhatsApp_Image_2026-05-06_at_00.44.46_2_bkhnui.jpg', caption: 'The early days of madness.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525212/WhatsApp_Image_2026-05-06_at_01.02.05_3_j7dogp.jpg', caption: 'Unfiltered energy.' },
+       { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525193/WhatsApp_Image_2026-05-06_at_01.02.04_2_ir3qfq.jpg', caption: 'Beautiful memories.' },
+        { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525159/WhatsApp_Image_2026-05-06_at_00.58.16_3_idxqns.jpg', caption: 'Chaos in clam.' },
+        { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525412/WhatsApp_Image_2026-05-06_at_00.58.17_dx4flv.jpg', caption: 'Unforgetable memories.' },
+      
     ]
   },
   {
@@ -30,9 +34,12 @@ const MOODS_DATA = [
     description: 'When the best ideas were born.',
     color: 'var(--color-accent-nights)',
     media: [
-      { type: 'image', url: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800', caption: '3 AM study sessions.' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=800', caption: 'Project deadlines.' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=800', caption: 'Quiet contemplation.' }
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525686/WhatsApp_Image_2026-05-12_at_00.01.58_nwnipn.jpg', caption: '3 AM study sessions.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525609/WhatsApp_Image_2026-05-06_at_01.02.05_2_bvaefj.jpg', caption: 'Project deadlines.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525557/WhatsApp_Image_2026-05-06_at_01.04.09_vmdwrv.jpg', caption: 'Quiet contemplation.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525564/WhatsApp_Image_2026-05-11_at_23.43.11_pjnyzo.jpg', caption: 'Chaos meets calm.'},
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778526000/DSCN0982_u0wahp.jpg', caption: 'Best we ever had.'},
+      
     ]
   },
   {
@@ -41,9 +48,12 @@ const MOODS_DATA = [
     description: 'Defining moments of triumph.',
     color: 'var(--color-accent-victory)',
     media: [
-      { type: 'image', url: '/assets/mood_victory.png', caption: 'The final score.' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=800', caption: 'Standing tall.' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1531266752426-aad4961783f7?auto=format&fit=crop&q=80&w=800', caption: 'Victory is sweet.' }
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778526286/WhatsApp_Image_2026-05-12_at_00.34.16_tnydj9.jpg', caption: 'The final score.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778526293/WhatsApp_Image_2026-05-12_at_00.34.17_zgyedl.jpg', caption: 'Standing tall.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778526169/WhatsApp_Image_2026-05-06_at_00.44.48_1_ykvlgj.jpg', caption: 'Victory is sweet.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778526163/WhatsApp_Image_2026-05-06_at_00.44.44_vmw3yn.jpg', caption: 'Happiness over everything.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778526450/WhatsApp_Image_2026-05-12_at_00.34.17_1_txgsiz.jpg', caption: 'With the best.' },
+    
     ]
   },
   {
@@ -52,9 +62,12 @@ const MOODS_DATA = [
     description: 'Forever etched.',
     color: 'var(--color-accent-nostalgia)',
     media: [
-      { type: 'image', url: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=800', caption: 'Looking back.' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&q=80&w=800', caption: 'Where it all started.' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1496244919519-74293c41e2e6?auto=format&fit=crop&q=80&w=800', caption: 'Faded photographs.' }
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778527351/WhatsApp_Image_2026-05-12_at_00.02.15_2_vbj9ab.jpg', caption: 'Looking back.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778527372/WhatsApp_Image_2026-05-12_at_00.02.07_pnpud4.jpg', caption: 'Where it all started.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778527402/WhatsApp_Image_2026-05-12_at_00.02.12_stjuis.jpg', caption: 'Faded photographs.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778527464/WhatsApp_Image_2026-05-12_at_00.02.07_2_f8gw3s.jpg', caption: 'Beauty who??.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778527430/WhatsApp_Image_2026-05-12_at_00.02.04_1_l3natq.jpg', caption: 'A long way.' }
+      
     ]
   }
 ];
@@ -64,7 +77,7 @@ function App() {
   const [showCurtain, setShowCurtain] = useState(true);
   const [isMoodModalOpen, setIsMoodModalOpen] = useState(false);
   const [selectedMoodId, setSelectedMoodId] = useState(null);
-  const [currentView, setCurrentView] = useState('home'); // 'home' | 'mood' | 'gallery' | 'finalact'
+  const [currentView, setCurrentView] = useState('home'); 
 
   const selectedMood = MOODS_DATA.find(m => m.id === selectedMoodId);
 
@@ -113,7 +126,6 @@ function App() {
         )}
         
         <main className={`transition-opacity duration-1000 ${showCurtain ? 'opacity-0 h-screen overflow-hidden' : 'opacity-100'}`}>
-          {/* Navbar — always visible after curtain */}
           <Navbar onStartJourney={() => setIsMoodModalOpen(true)} onNavClick={handleNavClick} />
 
           <Routes>
@@ -141,6 +153,15 @@ function App() {
                 {currentView === 'gallery' && (
                   <>
                     <UnitedWeRock />
+                    <GoBackButton />
+                    <Footer />
+                  </>
+                )}
+
+                {/* SPECIAL view */}
+                {currentView === 'special' && (
+                  <>
+                    <DedicatedPlaylist />
                     <GoBackButton />
                     <Footer />
                   </>
