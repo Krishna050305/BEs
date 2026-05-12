@@ -50,6 +50,23 @@ const Hero = ({ onStartJourney }) => {
           </button>
         </motion.div>
       </div>
+
+      {/* Scroll Down Indicator */}
+      <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 2.5, duration: 1.5 }}
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 flex flex-col items-center gap-3 pointer-events-none"
+      >
+        <span className="text-[9px] tracking-[0.6em] text-white/30 uppercase font-bold">Explore</span>
+        <div className="w-[1px] h-16 bg-gradient-to-b from-white/20 via-[#d4af37]/40 to-transparent relative overflow-hidden">
+          <motion.div 
+            animate={{ y: ["-100%", "100%"] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
+            className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-transparent via-[#d4af37] to-transparent"
+          />
+        </div>
+      </motion.div>
     </section>
   );
 };

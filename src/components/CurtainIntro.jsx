@@ -212,8 +212,8 @@ const CurtainIntro = ({ onFinish }) => {
         <motion.div
           animate={{ opacity: [0.4, 1, 0.4], y: [0, -5, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="absolute bottom-16 left-1/2 -translate-x-1/2 z-[80] text-white/70 uppercase tracking-[0.6em] text-sm font-bold px-8 py-3 rounded-full border border-white/20"
-          style={{ background: 'rgba(0,0,0,0.4)', backdropFilter: 'blur(8px)' }}
+          className="absolute bottom-16 left-1/2 -translate-x-1/2 z-[80] text-[#d4af37]/80 uppercase tracking-[0.6em] text-[10px] md:text-sm font-bold px-8 py-3 rounded-full border border-[#d4af37]/20 backdrop-blur-md"
+          style={{ background: 'rgba(0,0,0,0.6)' }}
         >
           Click to Raise Curtain
         </motion.div>
