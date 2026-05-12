@@ -72,7 +72,7 @@ export const SENIORS = [
     quote: "Chodbhangda rukna nahi chahiye!",
     role: "Rehman Daikat",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777974024/prithvi-final_eqqiwa.mp4",
-    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568066/Pruthvi_i25z5o.jpg",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778570211/Pruthvi_ceajre.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276052/IMG20260104193711_pwcns2.jpg",
     size: "small",
     songs: [
@@ -308,8 +308,7 @@ export const SENIORS = [
     quote: "Aurat hu taxi nahi jo seeti bajayega aur bhaagi chali aaungi!",
     role: "Baiko",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777696740/Srushti-final_e1m14y.mp4",
-    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568066/Srushti_a3zknm.jpg",
-    image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276374/IMG_20260206_161325202_HDR_ghgpqx.jpg",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778570209/srushti_bwhcmy.jpg",
     size: "medium",
     songs: [
       { id: 1, title: "Dil Mera Mufat Ka", duration: "4.54", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778529547/_Dil_Mera_Muft_Ka__Full_Song___Agent_Vinod___Saif_Ali_Khan__Kareena_Kapoor___Pritam_48k_efvnt4.mp3" },
