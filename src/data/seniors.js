@@ -35,7 +35,7 @@ export const SENIORS = [
   {
     id: 2,
     name: 'Nishikant Gawade',
-    quote: "Late nights and coffee made the best memories.",
+    quote: "Mi artist nahi ye pan mala perform karayla avadta",
     role: "ObaChann",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777973879/Nishi-final_etgy9j.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276252/IMG_20260414_140649_vfno2x.jpg",
@@ -67,7 +67,7 @@ export const SENIORS = [
   {
     id: 3,
     name: 'Pruthviraj Shinde',
-    quote: "Victory is sweeter when shared with the team.",
+    quote: "Chodbhangda rukna nahi chahiye!",
     role: "Rehman Daikat",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777974024/prithvi-final_eqqiwa.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276052/IMG20260104193711_pwcns2.jpg",
@@ -133,7 +133,7 @@ export const SENIORS = [
   {
     id: 5,
     name: 'Sohan Chepe',
-    quote: "Dance like the whole world is your stage.",
+    quote: "Mi baudhan cha aahe aani baudhan punyat yeta",
     role: "Sassy Pandit",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778223670/chepe_final_s44ual.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314657/IMG_4164_qhb0sy.jpg",
@@ -167,7 +167,7 @@ export const SENIORS = [
   {
     id: 6,
     name: 'Rinit Jain',
-    quote: "The most Sober guy in the group!",
+    quote: "Process Mahatvachi",
     role: "Mooo Maapaaa",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776596621/rinit-final_fq7eab.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776370843/WhatsApp_Image_2026-04-17_at_01.48.43_djp6a0.jpg",
@@ -235,7 +235,7 @@ export const SENIORS = [
     name: 'Shravani Deshpande',
     quote: "Whatever!!",
     role: "Isko Pheko",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-woman-working-with-fabrics-on-a-table-42624-large.mp4",
+    video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778559360/sasa-final_fbvi4a.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776368422/IMG_20260221_163249965_HDR_vzquo7.jpg",
     size: "small",
     songs: [
@@ -328,7 +328,7 @@ export const SENIORS = [
   {
     id: 11,
     name: 'Anuj Ghaghre',
-    quote: "Music is how we express the unexpressible.",
+    quote: "Nal Stop Ambassador",
     role: "Lead Vocalist",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778221266/Anuj_final_sgxpiv.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369022/Screenshot_2026-04-17_011944_xchy1u.png",
@@ -360,9 +360,9 @@ export const SENIORS = [
   {
     id: 12,
     name: 'Aditya Sontakke',
-    quote: "Building worlds from scratch is a craft.",
+    quote: "Bombay Bandook Fan",
     role: "MARZ-I ka Dancer",
-    video: "https://assets.mixkit.co/videos/preview/mixkit-man-working-with-wood-tools-42627-large.mp4",
+    video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778563348/sontakke-final_jbawge.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314938/20241130_161449_qscc78.jpg",
     size: "small",
     songs: [
@@ -382,7 +382,11 @@ export const SENIORS = [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224020/IMG_4138_o7efxs.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224028/IMG_20260425_163912829_HDR_i7mdbt.jpg",
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224033/20241130_161449_vhz8x7.jpg",
-      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778519726/IMG-20260508-WA0053_zpn5oi.jpg"
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778519726/IMG-20260508-WA0053_zpn5oi.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778561664/WhatsApp_Image_2026-05-12_at_10.16.13_4_dpx8pu.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778561665/WhatsApp_Image_2026-05-12_at_10.16.13_3_mddlr8.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778561664/WhatsApp_Image_2026-05-12_at_10.16.13_2_yaum8y.jpg",
+      "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778561730/WhatsApp_Image_2026-05-12_at_10.16.13_togxyg.jpg"
       
 
     ]
@@ -390,7 +394,7 @@ export const SENIORS = [
   {
     id: 13,
     name: 'Amulya Agrawal',
-    quote: "Acting is finding the truth in the imaginary.",
+    quote: "Me spot hi nahi dungi",
     role: "Ayushi-Lookalike",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777725106/Amulya-final_peps9m.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776315170/20250105_135850_1_l0tnht.jpg",
@@ -422,7 +426,7 @@ export const SENIORS = [
   {
     id: 14,
     name: 'Sanchi Uke',
-    quote: "Andhere me karo natak!",
+    quote: "Andharat kara natak!",
     role: "Dangal",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777725740/Sanchi-final_vpdrmf.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776315372/IMG_0479_yuqzum.jpg",
@@ -452,7 +456,7 @@ export const SENIORS = [
   {
     id: 15,
     name: 'Raghav Zanwar',
-    quote: "Transformation is the ultimate reward.",
+    quote: "Eyyyy What ifff!!",
     role: "Genda Phool",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778521460/raghav-final_qdeevh.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369173/Screenshot_2026-04-17_012233_iebn7c.png",
