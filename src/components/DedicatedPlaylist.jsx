@@ -43,7 +43,7 @@ const DedicatedPlaylist = () => {
                   {/* Photo */}
                   <div className="absolute inset-0">
                     <img
-                      src={person.image}
+                      src={person.playlistImage}
                       alt={person.name}
                       className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:saturate-[0.8]"
                     />

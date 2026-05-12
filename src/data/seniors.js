@@ -6,6 +6,7 @@ export const SENIORS = [
     role: "VIPRA",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777654664/Gawade-final_ldz97r.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276034/IMG20260108173908_wi7bdi.jpg",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568064/Gawade_japtem.jpg",
     size: "large",
     songs: [
       { id: 1, title: "Money Money", duration: "4:20", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533505/MONEY_MONEY__Full_Video___Yo_Yo_Honey_Singh__Ajay_Devgn__Jacqueline_F__Riteish_D___Bhushan_K__RAID_2_48k_tbsmgw.mp3" },
@@ -38,6 +39,7 @@ export const SENIORS = [
     quote: "Mi artist nahi ye pan mala perform karayla avadta",
     role: "ObaChann",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777973879/Nishi-final_etgy9j.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568065/Nishi_dibtio.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276252/IMG_20260414_140649_vfno2x.jpg",
     size: "small",
     songs: [
@@ -70,6 +72,7 @@ export const SENIORS = [
     quote: "Chodbhangda rukna nahi chahiye!",
     role: "Rehman Daikat",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777974024/prithvi-final_eqqiwa.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568066/Pruthvi_i25z5o.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276052/IMG20260104193711_pwcns2.jpg",
     size: "small",
     songs: [
@@ -100,6 +103,7 @@ export const SENIORS = [
     quote: "MIDA Raraaa!!",
     role: "AAI",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777698204/nehal-final_pgvmk1.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568145/IMG20250122172931_rzo3lc.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314935/PXL_20241207_123154906_nlvsca.jpg",
     size: "medium",
     songs: [
@@ -136,6 +140,7 @@ export const SENIORS = [
     quote: "Mi baudhan cha aahe aani baudhan punyat yeta",
     role: "Sassy Pandit",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778223670/chepe_final_s44ual.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568104/IMG-20260502-WA0020_zj3ikk.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314657/IMG_4164_qhb0sy.jpg",
     size: "small",
     songs: [
@@ -170,6 +175,7 @@ export const SENIORS = [
     quote: "Process Mahatvachi",
     role: "Mooo Maapaaa",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776596621/rinit-final_fq7eab.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568067/Rinit_ykkvi6.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776370843/WhatsApp_Image_2026-04-17_at_01.48.43_djp6a0.jpg",
     size: "small",
     songs: [
@@ -203,6 +209,7 @@ export const SENIORS = [
     quote: "Gand Maar Dungi Bhenchod!",
     role: "Sexy Ladyy",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776595920/Mira-final_ce3plg.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568063/Mira_rutmdd.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776277116/IMG_20241227_134311695_HDR_oho34u.jpg",
     size: "small",
     songs: [
@@ -236,6 +243,7 @@ export const SENIORS = [
     quote: "Whatever!!",
     role: "Isko Pheko",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778559360/sasa-final_fbvi4a.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568662/Sasa_djgay2.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776368422/IMG_20260221_163249965_HDR_vzquo7.jpg",
     size: "small",
     songs: [
@@ -269,6 +277,7 @@ export const SENIORS = [
     quote: "What's up Niggas!!",
     role: "Navra",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776595931/gore-final_acwf3k.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568063/Gore_ecmboo.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776275631/IMG_20260214_184914483_HDR_c5lihf.jpg",
     size: "large",
     songs: [
@@ -299,6 +308,7 @@ export const SENIORS = [
     quote: "Aurat hu taxi nahi jo seeti bajayega aur bhaagi chali aaungi!",
     role: "Baiko",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777696740/Srushti-final_e1m14y.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568066/Srushti_a3zknm.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776276374/IMG_20260206_161325202_HDR_ghgpqx.jpg",
     size: "medium",
     songs: [
@@ -331,6 +341,7 @@ export const SENIORS = [
     quote: "Nal Stop Ambassador",
     role: "Lead Vocalist",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778221266/Anuj_final_sgxpiv.mp4",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568065/Anuj_lgc5m3.jpg",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369022/Screenshot_2026-04-17_011944_xchy1u.png",
     size: "small",
     songs: [
@@ -362,6 +373,7 @@ export const SENIORS = [
     name: 'Aditya Sontakke',
     quote: "Bombay Bandook Fan",
     role: "MARZ-I ka Dancer",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568190/WhatsApp_Image_2026-05-12_at_10.16.13_5_mopwis.jpg",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778563348/sontakke-final_jbawge.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776314938/20241130_161449_qscc78.jpg",
     size: "small",
@@ -396,6 +408,7 @@ export const SENIORS = [
     name: 'Amulya Agrawal',
     quote: "Me spot hi nahi dungi",
     role: "Ayushi-Lookalike",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568067/Amulya_wowokw.jpg",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777725106/Amulya-final_peps9m.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776315170/20250105_135850_1_l0tnht.jpg",
     size: "medium",
@@ -428,6 +441,7 @@ export const SENIORS = [
     name: 'Sanchi Uke',
     quote: "Andharat kara natak!",
     role: "Dangal",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568088/IMG-20260502-WA0103_hqzqdg.jpg",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777725740/Sanchi-final_vpdrmf.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776315372/IMG_0479_yuqzum.jpg",
     size: "small",
@@ -458,6 +472,7 @@ export const SENIORS = [
     name: 'Raghav Zanwar',
     quote: "Eyyyy What ifff!!",
     role: "Genda Phool",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568146/IMG-20260508-WA0025_omu72b.jpg",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778521460/raghav-final_qdeevh.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369173/Screenshot_2026-04-17_012233_iebn7c.png",
     size: "small",
@@ -488,6 +503,7 @@ export const SENIORS = [
     name: 'Purti Patil',
     quote: "Titli Udi Ud Naa Saki",
     role: "Titli",
+    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568826/Purti_hpa6cw.jpg",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776370352/Highlight-purti_zlpan2.mp4",
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369341/WhatsApp_Image_2026-04-17_at_01.25.10_lwhtyk.jpg",
     size: "small",
