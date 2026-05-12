@@ -1,23 +1,40 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { X } from 'lucide-react';
 import { SENIORS } from '../data/seniors';
 
 const CreditsOverlay = ({ isOpen, onClose }) => {
   const controls = useAnimation();
+  const audioRef = useRef(null);
 
   useEffect(() => {
-    // Start the scrolling animation
+    // Start the scrolling animation - Much slower for premium feel
     controls.start({
       y: ["0%", "-200%"],
       transition: {
-        duration: 80, // Slower speed
+        duration: 180, // Slowed down from 80 to 180
         ease: "linear",
       }
     }).then(() => {
       // Automatically go back after credits are over
       onClose();
     });
+
+    // Auto-play music when credits start
+    if (audioRef.current) {
+      audioRef.current.volume = 0.6;
+      audioRef.current.play().catch(err => {
+        console.log("Audio play blocked, but interaction should have happened:", err);
+      });
+    }
+
+    return () => {
+      // Cleanup: Stop music when overlay closes
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      }
+    };
   }, [controls, onClose]);
 
   return (
@@ -27,8 +44,15 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
       exit={{ opacity: 0 }}
       className="fixed inset-0 z-[200] bg-black text-white overflow-hidden"
     >
+      {/* Background Music */}
+      <audio
+        ref={audioRef}
+        src="https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778586733/AUD_20260512_WA0004_aac_vocals_V1_bdat4y.mp3"
+        loop
+      />
+
       {/* Close Button */}
-      <button 
+      <button
         onClick={onClose}
         className="fixed top-8 right-8 z-[210] p-4 text-white/40 hover:text-white transition-colors"
       >
@@ -49,11 +73,11 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
             <motion.div
               initial={{ scale: 1.1, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 2, ease: "easeOut" }}
+              transition={{ duration: 10, ease: "easeOut" }}
               className="relative w-full aspect-video rounded-sm overflow-hidden border border-white/20 shadow-[0_0_100px_rgba(255,255,255,0.05)]"
             >
-              <img 
-                src="https://res.cloudinary.com/dgx3aoymz/image/upload/v1778570186/sy-be_zp2pjn.jpg" 
+              <img
+                src="https://res.cloudinary.com/dgx3aoymz/image/upload/v1778570186/sy-be_zp2pjn.jpg"
                 alt="SY BEs Highlight"
                 className="w-full h-full object-cover"
               />
@@ -67,8 +91,8 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
               A Special Presentation
             </motion.span>
             <h1 className="text-6xl md:text-[10rem] font-display font-bold tracking-tight leading-[0.8] uppercase">
-              WE <span className="text-white/40">SYs</span> LOVE OUR<br/>
-              <span className="text-white">BEs</span> SO MUCH
+              WE <span className="text-white/40">ALL</span> LOVE <br />
+              <span className="text-white">YOU</span>
             </h1>
           </div>
 
@@ -77,7 +101,7 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
             <h2 className="text-2xl md:text-5xl tracking-[0.5em] text-white/70 uppercase font-display font-bold border-b border-white/10 pb-12 w-full text-center">
               Featuring The Class of 2026
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-16 w-full text-center">
               {SENIORS.map((senior) => (
                 <div key={senior.id} className="flex flex-col gap-2">
@@ -91,7 +115,7 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
           {/* Production Credits - Brighter Colors */}
           <section className="flex flex-col gap-24 w-full max-w-3xl text-center px-8 border-t border-white/10 pt-48">
             {[
-              { role: "From", name: "SYs" },
+              { role: "From", name: "SY's" },
               { role: "Special Thanks", name: "To All Seniors" }
             ].map((credit, i) => (
               <div key={i} className="grid grid-cols-[1fr_auto_1fr] items-center gap-12 w-full">
@@ -126,3 +150,4 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
 };
 
 export default CreditsOverlay;
+

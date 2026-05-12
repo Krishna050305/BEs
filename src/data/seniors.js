@@ -273,7 +273,7 @@ export const SENIORS = [
   },
   {
     id: 8,
-    name: 'Aditya/Aryan Gore',
+    name: 'Aryan Gore',
     quote: "What's up Niggas!!",
     role: "Navra",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776595931/gore-final_acwf3k.mp4",
@@ -308,7 +308,8 @@ export const SENIORS = [
     quote: "Aurat hu taxi nahi jo seeti bajayega aur bhaagi chali aaungi!",
     role: "Baiko",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777696740/Srushti-final_e1m14y.mp4",
-    playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778570209/srushti_bwhcmy.jpg",
+    image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1777696835/WhatsApp_Image_2026-05-02_at_09.37.56_dl4iil.jpg",
+    playlistImage: "https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778580974/WhatsApp_Image_2026-05-12_at_15.43.44_tphnpw.jpg",
     size: "medium",
     songs: [
       { id: 1, title: "Dil Mera Mufat Ka", duration: "4.54", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778529547/_Dil_Mera_Muft_Ka__Full_Song___Agent_Vinod___Saif_Ali_Khan__Kareena_Kapoor___Pritam_48k_efvnt4.mp3" },

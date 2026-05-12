@@ -20,17 +20,17 @@ const Footer = () => {
           <span className="text-white">Beginning of a Legacy.</span>
         </p>
 
-        <div className="flex gap-12 text-[10px] font-bold tracking-[0.4em] text-white/30 uppercase">
+        <div className="flex gap-12 text-[10px] font-bold tracking-[0.4em] uppercase">
           <button 
             onClick={() => setShowCredits(true)}
-            className="hover:text-white transition-colors bg-transparent border-none cursor-pointer uppercase tracking-[0.4em]"
+            className="px-16 py-8 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/40 text-white/40 hover:text-white transition-all duration-500 uppercase tracking-[0.6em] text-[11px] font-bold backdrop-blur-xl group"
           >
-            THE CREDITS
+            <span className="group-hover:scale-110 transition-transform inline-block">View The Credits</span>
           </button>
         </div>
 
         <div className="mt-32 text-[10px] uppercase tracking-[0.5em] text-white/10">
-          ©2026 THE FINAL CURTAIN. PRESENTED BY SY. FOR BEs
+          ©2026 THE LAST STRETCH. PRESENTED BY SY. FOR BEs
         </div>
       </div>
 

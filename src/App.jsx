@@ -34,8 +34,8 @@ const MOODS_DATA = [
     description: 'When the best ideas were born.',
     color: 'var(--color-accent-nights)',
     media: [
-      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525686/WhatsApp_Image_2026-05-12_at_00.01.58_nwnipn.jpg', caption: '3 AM study sessions.' },
-      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525609/WhatsApp_Image_2026-05-06_at_01.02.05_2_bvaefj.jpg', caption: 'Project deadlines.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525686/WhatsApp_Image_2026-05-12_at_00.01.58_nwnipn.jpg', caption: 'Gossip sessions.' },
+      { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525609/WhatsApp_Image_2026-05-06_at_01.02.05_2_bvaefj.jpg', caption: 'Drapery deadlines.' },
       { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525557/WhatsApp_Image_2026-05-06_at_01.04.09_vmdwrv.jpg', caption: 'Quiet contemplation.' },
       { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778525564/WhatsApp_Image_2026-05-11_at_23.43.11_pjnyzo.jpg', caption: 'Chaos meets calm.'},
       { type: 'image', url: 'https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778526000/DSCN0982_u0wahp.jpg', caption: 'Best we ever had.'},
