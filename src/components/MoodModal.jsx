@@ -58,7 +58,7 @@ const MoodModal = ({ isOpen, onClose, onMoodSelect }) => {
             initial={{ scale: 0.9, y: 20 }}
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0.9, y: 20 }}
-            className="relative w-full max-w-6xl glass-dark rounded-[2rem] overflow-hidden p-8 md:p-16 text-center"
+            className="relative w-full max-w-6xl glass-dark rounded-[2rem] overflow-y-auto max-h-[85vh] p-6 md:p-16 text-center no-scrollbar"
           >
             <button 
               onClick={onClose}
@@ -67,8 +67,8 @@ const MoodModal = ({ isOpen, onClose, onMoodSelect }) => {
               <X size={32} />
             </button>
 
-            <h2 className="text-5xl md:text-7xl font-display mb-4">What's your mood today?</h2>
-            <p className="text-white/40 text-lg md:text-xl font-medium mb-12 uppercase tracking-widest">
+            <h2 className="text-3xl md:text-7xl font-display mb-4">What's your mood today?</h2>
+            <p className="text-white/40 text-xs md:text-xl font-medium mb-8 md:mb-12 uppercase tracking-[0.2em] md:tracking-widest">
               Pick a vibe to relive the memories.
             </p>
 

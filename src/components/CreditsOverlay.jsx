@@ -8,17 +8,26 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
   const audioRef = useRef(null);
 
   useEffect(() => {
-    // Start the scrolling animation - Much slower for premium feel
-    controls.start({
-      y: ["0%", "-200%"],
-      transition: {
-        duration: 180, // Slowed down from 80 to 180
-        ease: "linear",
-      }
-    }).then(() => {
-      // Automatically go back after credits are over
-      onClose();
-    });
+    const startAnimation = async () => {
+      // Sustain for 4 seconds at the start
+      await new Promise(resolve => setTimeout(resolve, 4000));
+
+      if (!controls) return;
+
+      // Start the scrolling animation - Stops at the end of content
+      controls.start({
+        y: ["0%", "-100%"], // We'll adjust the container to make -100% the exact end
+        transition: {
+          duration: 150, 
+          ease: "linear",
+        }
+      }).then(() => {
+        // Automatically go back after credits are over
+        onClose();
+      });
+    };
+
+    startAnimation();
 
     // Auto-play music when credits start
     if (audioRef.current) {
@@ -66,7 +75,7 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
       <div className="relative w-full h-full overflow-hidden flex flex-col items-center">
         <motion.div
           animate={controls}
-          className="w-full flex flex-col items-center gap-64 pt-[10vh] pb-[100vh]"
+          className="w-full flex flex-col items-center gap-48 pt-[20vh] pb-[20vh]"
         >
           {/* THE HIGHLIGHTED IMAGE (Large Cinematic Poster) */}
           <div className="w-full max-w-6xl px-8 flex flex-col items-center">
@@ -86,27 +95,27 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
           </div>
 
           {/* Main Message - Brighter Grey */}
-          <div className="flex flex-col items-center gap-12 px-8 text-center">
-            <motion.span className="text-[12px] tracking-[1.2em] text-white/70 uppercase">
+          <div className="flex flex-col items-center gap-6 md:gap-12 px-8 text-center">
+            <motion.span className="text-[10px] md:text-[12px] tracking-[0.8em] md:tracking-[1.2em] text-white/70 uppercase">
               A Special Presentation
             </motion.span>
-            <h1 className="text-6xl md:text-[10rem] font-display font-bold tracking-tight leading-[0.8] uppercase">
-              WE <span className="text-white/40">ALL</span> LOVE <br />
+            <h1 className="text-4xl md:text-[10rem] font-display font-bold tracking-tight leading-[0.9] md:leading-[0.8] uppercase">
+              WE <span className="text-white/40">ALL</span> LOVE <br className="hidden md:block" />
               <span className="text-white">YOU</span>
             </h1>
           </div>
 
           {/* Cast Section - Text Only to avoid repetition */}
-          <section className="flex flex-col gap-48 w-full max-w-4xl px-8 items-center">
-            <h2 className="text-2xl md:text-5xl tracking-[0.5em] text-white/70 uppercase font-display font-bold border-b border-white/10 pb-12 w-full text-center">
+          <section className="flex flex-col gap-24 md:gap-48 w-full max-w-4xl px-8 items-center">
+            <h2 className="text-xl md:text-5xl tracking-[0.3em] md:tracking-[0.5em] text-white/70 uppercase font-display font-bold border-b border-white/10 pb-8 md:pb-12 w-full text-center">
               Featuring The Class of 2026
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-16 w-full text-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 md:gap-x-32 gap-y-12 md:gap-y-16 w-full text-center">
               {SENIORS.map((senior) => (
                 <div key={senior.id} className="flex flex-col gap-2">
-                  <span className="text-5xl font-display uppercase tracking-[0.2em] text-white/90">{senior.name}</span>
-                  <span className="text-[11px] tracking-[0.6em] text-white/60 uppercase">{senior.role}</span>
+                  <span className="text-3xl md:text-5xl font-display uppercase tracking-[0.15em] md:tracking-[0.2em] text-white/90">{senior.name}</span>
+                  <span className="text-[10px] md:text-[11px] tracking-[0.4em] md:tracking-[0.6em] text-white/60 uppercase">{senior.role}</span>
                 </div>
               ))}
             </div>
@@ -137,8 +146,8 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
           </div> */}
 
           {/* The End */}
-          <div className="py-64 flex flex-col items-center">
-            <h2 className="text-[18rem] font-display text-white/[0.05] select-none tracking-tighter leading-none">FIN</h2>
+          <div className="py-32 md:py-64 flex flex-col items-center">
+            <h2 className="text-[8rem] md:text-[18rem] font-display text-white/[0.05] select-none tracking-tighter leading-none">FIN</h2>
           </div>
         </motion.div>
       </div>

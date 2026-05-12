@@ -24,12 +24,12 @@ const MoodSection = ({ mood }) => {
           className="mb-20"
         >
           <h2 
-            className="text-7xl md:text-9xl mb-4 tracking-tighter"
+            className="text-5xl md:text-9xl mb-4 tracking-tighter"
             style={{ color: mood.color }}
           >
             {mood.title}
           </h2>
-          <p className="text-xl md:text-3xl text-white/60 max-w-2xl font-medium leading-tight">
+          <p className="text-lg md:text-3xl text-white/60 max-w-2xl font-medium leading-tight">
             {mood.description}
           </p>
         </motion.div>

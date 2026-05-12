@@ -28,12 +28,12 @@ const Hero = ({ onStartJourney }) => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
         >
-          <span className="text-white/40 text-sm md:text-base font-medium tracking-[0.6em] uppercase mb-6 block">
+          <span className="text-white/40 text-[10px] md:text-base font-medium tracking-[0.4em] md:tracking-[0.6em] uppercase mb-4 md:mb-6 block">
             The Graduation Chapter
           </span>
-          <h1 className="text-7xl md:text-[10rem] font-display tracking-tight leading-[0.9] mb-12">
+          <h1 className="text-4xl md:text-[8rem] lg:text-[10rem] font-display tracking-tight leading-[1.1] md:leading-[0.9] mb-8 md:mb-12">
             Class of 2026:<br />
-            <span className="text-white drop-shadow-[0_0_50px_rgba(255,255,255,0.3)] italic">The LAST STRETCH.</span>
+            <span className="text-white drop-shadow-[0_0_30px_rgba(255,255,255,0.3)] italic">The LAST STRETCH.</span>
           </h1>
         </motion.div>
 

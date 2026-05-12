@@ -93,8 +93,8 @@ const CharacterGallery = () => {
                 <X size={24} />
               </button>
 
-              <div className="md:flex h-full">
-                <div className="md:w-1/2 aspect-square md:aspect-auto">
+              <div className="flex flex-col md:flex-row h-full">
+                <div className="w-full md:w-1/2 aspect-square md:aspect-auto">
                   <video 
                     autoPlay 
                     loop 
@@ -106,19 +106,19 @@ const CharacterGallery = () => {
                   </video>
                 </div>
                 
-                <div className="md:w-1/2 p-12 flex flex-col justify-center">
-                  <span className="text-sm font-bold tracking-[0.2em] uppercase text-white/40 mb-2">{selectedSenior.role}</span>
-                  <h2 className="text-4xl md:text-5xl font-bold mb-6">{selectedSenior.name}</h2>
-                  <div className="w-12 h-1 bg-white/20 mb-8" />
-                  <p className="text-2xl font-light italic text-white/80 leading-relaxed mb-8">
+                <div className="w-full md:w-1/2 p-6 md:p-12 flex flex-col justify-center bg-surface">
+                  <span className="text-[10px] md:text-sm font-bold tracking-[0.2em] uppercase text-white/40 mb-2">{selectedSenior.role}</span>
+                  <h2 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6">{selectedSenior.name}</h2>
+                  <div className="w-8 md:w-12 h-1 bg-white/20 mb-6 md:mb-8" />
+                  <p className="text-lg md:text-2xl font-light italic text-white/80 leading-relaxed mb-6 md:mb-8">
                     "{selectedSenior.quote}"
                   </p>
                   <div className="flex gap-4">
                     <button 
                       onClick={() => navigate(`/profile/${selectedSenior.id}`)}
-                      className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-full font-bold text-sm hover:scale-105 transition-transform"
+                      className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-full font-bold text-xs md:text-sm hover:scale-105 transition-transform"
                     >
-                      Profile <ExternalLink size={16} />
+                      Full Profile <ExternalLink size={14} />
                     </button>
                   </div>
                 </div>
