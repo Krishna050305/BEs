@@ -13,7 +13,8 @@ const CharacterCard = ({ senior, onClick }) => {
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
       onClick={() => onClick(senior)}
-      className={`relative cursor-pointer overflow-hidden rounded-3xl border border-white/5 bg-surface transition-colors hover:border-white/20
+      whileTap={{ scale: 0.98 }}
+      className={`relative cursor-pointer overflow-hidden rounded-3xl border border-white/5 bg-surface transition-all duration-500 hover:border-white/40 group
         ${senior.size === 'large' ? 'md:col-span-2 md:row-span-2' : ''}
         ${senior.size === 'medium' ? 'md:col-span-2' : ''}
       `}
@@ -22,7 +23,7 @@ const CharacterCard = ({ senior, onClick }) => {
         <motion.img
           src={senior.image}
           alt={senior.name}
-          className={`h-full w-full object-cover transition-all duration-700 ${isHovered ? 'grayscale-0 brightness-110' : 'grayscale brightness-75'}`}
+          className="h-full w-full object-cover transition-all duration-700 grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-110 active:grayscale-0 active:brightness-110"
         />
         <AnimatePresence>
           {isHovered && (
