@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
+import CreditsOverlay from './CreditsOverlay';
 
 const Footer = () => {
   const [showCredits, setShowCredits] = useState(false);
@@ -33,38 +34,13 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Credits Modal */}
+      {/* Credits Flow */}
       <AnimatePresence>
         {showCredits && (
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={() => setShowCredits(false)}
-            className="fixed inset-0 z-[100] bg-black/95 backdrop-blur-xl flex items-center justify-center p-4 md:p-12 cursor-pointer"
-          >
-            <motion.button 
-              className="absolute top-8 right-8 text-white/40 hover:text-white transition-colors z-10"
-              onClick={() => setShowCredits(false)}
-            >
-              <X size={32} />
-            </motion.button>
-
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0, y: 20 }}
-              animate={{ scale: 1, opacity: 1, y: 0 }}
-              exit={{ scale: 0.9, opacity: 0, y: 20 }}
-              transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="relative w-full h-full flex items-center justify-center"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <img 
-                src="https://res.cloudinary.com/dgx3aoymz/image/upload/v1778570186/sy-be_zp2pjn.jpg" 
-                alt="Credits"
-                className="max-w-full max-h-full object-contain rounded-lg shadow-2xl border border-white/10"
-              />
-            </motion.div>
-          </motion.div>
+          <CreditsOverlay 
+            isOpen={showCredits} 
+            onClose={() => setShowCredits(false)} 
+          />
         )}
       </AnimatePresence>
 

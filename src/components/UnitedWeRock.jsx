@@ -36,7 +36,6 @@ const PHOTOS = [
     { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778569594/IMG_20260117_182352_oifwvr.jpg', size: 'small' },
     { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778569596/IMG_20260214_144437_jlo4l7.jpg', size: 'large' },
     { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778569721/20260203_203415_azraen.jpg', size: 'small' },
-    // { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778224755/20241204_151016_gtdhvw.jpg', size: 'small' },
     { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778569722/20260103_173852_nu5sbe.jpg', size: 'small' },
     { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778569723/IMG_1377_qg2y71.jpg', size: 'large' },
     { url: 'https://res.cloudinary.com/dgx3aoymz/image/upload/v1778569724/IMG_20260221_152816327_AE_nfjshh.jpg', size: 'small' },
