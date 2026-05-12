@@ -337,7 +337,7 @@ export const SENIORS = [
   },
   {
     id: 11,
-    name: 'Anuj Ghaghre',
+    name: 'Anuj Gagare',
     quote: "Nal Stop Ambassador",
     role: "Lead Vocalist",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778221266/Anuj_final_sgxpiv.mp4",
