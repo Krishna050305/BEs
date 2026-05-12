@@ -36,7 +36,7 @@ export const SENIORS = [
   {
     id: 2,
     name: 'Nishikant Gawade',
-    quote: "Mi artist nahi ye pan mala perform karayla avadta",
+    quote: "Big boss he maza phone det nhiet!!!",
     role: "ObaChann",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1777973879/Nishi-final_etgy9j.mp4",
     playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568065/Nishi_dibtio.jpg",
@@ -137,7 +137,7 @@ export const SENIORS = [
   {
     id: 5,
     name: 'Sohan Chepe',
-    quote: "Mi baudhan cha aahe aani baudhan punyat yeta",
+    quote: "Mi spashta ani suddha Marathi bolto !!!",
     role: "Sassy Pandit",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778223670/chepe_final_s44ual.mp4",
     playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568104/IMG-20260502-WA0020_zj3ikk.jpg",
@@ -172,7 +172,7 @@ export const SENIORS = [
   {
     id: 6,
     name: 'Rinit Jain',
-    quote: "Process Mahatvachi",
+    quote: "Boiss yeh sab circle ke liye hai!!!",
     role: "Mooo Maapaaa",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776596621/rinit-final_fq7eab.mp4",
     playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568067/Rinit_ykkvi6.jpg",
@@ -206,7 +206,7 @@ export const SENIORS = [
   {
     id: 7,
     name: 'Mira Sharma',
-    quote: "Gand Maar Dungi Bhenchod!",
+    quote: "Koi Aya nhi na ohir dekho tumlog!!",
     role: "Sexy Ladyy",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1776595920/Mira-final_ce3plg.mp4",
     playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568063/Mira_rutmdd.jpg",
@@ -214,7 +214,7 @@ export const SENIORS = [
     size: "small",
     songs: [
       { id: 1, title: "You Belong With me", duration: "3:50", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530679/Taylor_Swift_-_You_Belong_With_Me__Lyrics__48k_zubvre.mp3" },
-      { id: 2, title: "Shikari", duration: "2:43", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530679/Shikari___Massom_Sharma___Ashu_Twinkle___Sahil_Sangwan___Sheetal_Sangwan___Haryanvi_Song_48k_gzhcbn.mp3" },
+      { id: 2, title: "Vachari", duration: "4:03", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778608953/Jasmine_Sandlas__Vachari_Official_Video_Song___Intense___T-Series_128k_gju30b.mp3" },
       { id: 3, title: "Hey Sexy Lady", duration: "3:33", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530679/Shaggy_-_Hey_Sexy_Lady_ft._Brian___Tony_Gold_48k_eg0rav.mp3" }
     ],
     gallery: [
@@ -338,7 +338,7 @@ export const SENIORS = [
   {
     id: 11,
     name: 'Anuj Gagare',
-    quote: "Nal Stop Ambassador",
+    quote: "Ghan ghanaghan Fergusson",
     role: "Lead Vocalist",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778221266/Anuj_final_sgxpiv.mp4",
     playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568065/Anuj_lgc5m3.jpg",
@@ -371,7 +371,7 @@ export const SENIORS = [
   {
     id: 12,
     name: 'Aditya Sontakke',
-    quote: "Bombay Bandook Fan",
+    quote: "Nako kruyat boisssss",
     role: "MARZ-I ka Dancer",
     playlistImage: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778568190/WhatsApp_Image_2026-05-12_at_10.16.13_5_mopwis.jpg",
     video: "https://res.cloudinary.com/dgx3aoymz/video/upload/v1778563348/sontakke-final_jbawge.mp4",
@@ -477,9 +477,9 @@ export const SENIORS = [
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776369173/Screenshot_2026-04-17_012233_iebn7c.png",
     size: "small",
     songs: [
-      { id: 1, title: "Song 1", duration: "0:00", url: "PASTE_URL_HERE" },
-      { id: 2, title: "Song 2", duration: "0:00", url: "PASTE_URL_HERE" },
-      { id: 3, title: "Song 3", duration: "0:00", url: "PASTE_URL_HERE" }
+      { id: 1, title: "Bop Daddy", duration: "3:50", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778608567/Falz_-_Bop_Daddy__Official_Video__ft._Ms_Banks_48k_ubd6jv.mp3" },
+      { id: 2, title: "Main Aisa Kyun Hoon", duration: "4:23", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778608564/Main_Aisa_Kyun_Hoon_Full_Video_-_Lakshya_Hrithik_Roshan__Preity_Zinta_Shaan_Javed_Akhtar_48k_syyrro.mp3" },
+      { id: 3, title: "Genda Phool", duration: "2:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778608525/A_R_Rahman___Genda_Phool_Full_Song____Delhi_6___Abhishek_Bachchan__Sonam_Kapoor_48k_dxwrtk.mp3" }
     ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1778498796/IMG-20241220-WA0050_gj5wqg.jpg",
