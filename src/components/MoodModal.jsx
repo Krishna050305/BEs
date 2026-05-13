@@ -84,7 +84,7 @@ const MoodModal = ({ isOpen, onClose, onMoodSelect }) => {
                   <img 
                     src={mood.image} 
                     alt={mood.title} 
-                    className="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 active:grayscale-0 transition-all duration-700 group-hover:scale-110 active:scale-110" 
+                    className="absolute inset-0 w-full h-full object-cover grayscale-0 md:grayscale group-hover:grayscale-0 active:grayscale-0 transition-all duration-700 group-hover:scale-110 active:scale-110" 
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80" />
                   
