@@ -44,7 +44,7 @@ const PlaylistPanel = ({ person, onBack }) => {
   const currentTrack = tracks.find(t => t.id === playingTrackId);
 
   return (
-    <div className="fixed inset-0 z-[100] bg-[#121212] flex flex-col">
+    <div className="relative z-10 flex flex-col">
       {/* Hidden Video for Audio Playback */}
       <video ref={videoRef} className="hidden" onEnded={() => setIsPlaying(false)} />
 
@@ -88,7 +88,7 @@ const PlaylistPanel = ({ person, onBack }) => {
       </div>
 
       {/* Tracklist Section */}
-      <div className="flex-1 px-8 md:px-16 overflow-y-auto pb-32">
+      <div className="px-8 md:px-16 pb-32">
         <div className="max-w-4xl">
           {/* List Header */}
           <div className="grid grid-cols-[40px_1fr_100px] gap-4 px-4 py-2 border-b border-white/5 text-white/40 text-[10px] font-bold uppercase tracking-widest mb-4">

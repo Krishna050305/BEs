@@ -45,7 +45,7 @@ export const SENIORS = [
     songs: [
       { id: 1, title: "Hanikarak Bapu", duration: "5:09", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533060/Haanikaarak_Bapu___Aamir_Khan___Pritam___Amitabh_B___Sarwar___Sartaz_Khan___Dangal___Full_Video_48k_mjelne.mp3" },
       { id: 2, title: "Oappu Can't dance", duration: "4:17", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533050/Full_Video__Pappu_Can_t_Dance___Jaane_Tu_Ya_Jaane_Na___Imran_Khan___A.R._Rahman_48k_xjdaos.mp3" },
-      { id: 3, title: "Chokra Jawan", duration: "5:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533050/Full_Video__Pappu_Can_t_Dance___Jaane_Tu_Ya_Jaane_Na___Imran_Khan___A.R._Rahman_48k_xjdaos.mp3" }
+      { id: 3, title: "Chokra Jawan", duration: "5:40", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778533025/Chokra_Jawaan___Full_Song___Ishaqzaade___Arjun_Kapoor__Gauhar_Khan___Amit_Trivedi___Sunidhi__Vishal_48k_yjewvj.mp3" }
     ],
     gallery: [
       "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776614711/IMG20260201134601_rbl465.jpg",

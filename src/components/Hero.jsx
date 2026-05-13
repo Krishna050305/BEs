@@ -19,7 +19,7 @@ const Hero = ({ onStartJourney }) => {
         >
           <source src="https://assets.mixkit.co/videos/preview/mixkit-stars-in-the-night-sky-out-of-focus-9721-large.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
+        <div className="absolute inset-0 bg-black/10 backdrop-blur-[2px]" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
       </div>
 
@@ -31,9 +31,9 @@ const Hero = ({ onStartJourney }) => {
           <span className="text-white/40 text-[10px] md:text-base font-medium tracking-[0.4em] md:tracking-[0.6em] uppercase mb-4 md:mb-6 block">
             The Graduation Chapter
           </span>
-          <h1 className="text-4xl md:text-[8rem] lg:text-[10rem] font-display tracking-tight leading-[1.1] md:leading-[0.9] mb-8 md:mb-12">
+          <h1 className="text-4xl md:text-[8rem] lg:text-[10rem] font-display tracking-tight leading-[1.1] md:leading-[0.9] mb-8 md:mb-12 text-white/60">
             Class of 2026:<br />
-            <span className="text-white drop-shadow-[0_0_30px_rgba(255,255,255,0.3)] italic">The LAST STRETCH.</span>
+            <span className="text-white/60 drop-shadow-[0_0_30px_rgba(255,255,255,0.3)] italic">The LAST STRETCH.</span>
           </h1>
         </motion.div>
 
@@ -44,7 +44,7 @@ const Hero = ({ onStartJourney }) => {
         >
           <button 
             onClick={onStartJourney}
-            className="group relative px-14 py-6 bg-white text-black rounded-full font-bold text-xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_60px_rgba(255,255,255,0.1)] uppercase tracking-widest"
+            className="group relative px-14 py-6 bg-white/40 text-black rounded-full font-bold text-xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_60px_rgba(255,255,255,0.1)] uppercase tracking-widest"
           >
             Start Journey
           </button>
