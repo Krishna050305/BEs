@@ -50,7 +50,7 @@ const MoodSection = ({ mood }) => {
               {item.type === 'video' ? (
                 <video 
                   autoPlay muted loop playsInline 
-                  className="w-full h-full object-cover grayscale-0 md:grayscale group-hover:grayscale-0 active:grayscale-0 transition-all duration-1000"
+                  className="w-full h-full object-cover grayscale-0 lg:grayscale group-hover:grayscale-0 active:grayscale-0 transition-all duration-1000"
                 >
                   <source src={item.url} type="video/mp4" />
                 </video>
@@ -58,7 +58,7 @@ const MoodSection = ({ mood }) => {
                 <img 
                   src={item.url} 
                   alt={item.caption} 
-                  className="w-full h-full object-cover grayscale-0 md:grayscale group-hover:grayscale-0 active:grayscale-0 transition-all duration-1000 group-hover:scale-105 active:scale-105" 
+                  className="w-full h-full object-cover grayscale-0 lg:grayscale group-hover:grayscale-0 active:grayscale-0 transition-all duration-1000 group-hover:scale-105 active:scale-105" 
                 />
               )}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />

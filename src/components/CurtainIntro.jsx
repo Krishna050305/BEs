@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const CurtainIntro = ({ onFinish }) => {
+const CurtainIntro = ({ onFinish, onStartOpening }) => {
   const [isClicked, setIsClicked] = useState(false);
   const [countdown, setCountdown] = useState(null);
   const [isOpened, setIsOpened] = useState(false);
@@ -33,6 +33,7 @@ const CurtainIntro = ({ onFinish }) => {
     setTimeout(() => {
       setCountdown(null);
       setIsOpened(true);
+      if (onStartOpening) onStartOpening();
       setTimeout(onFinish, 2500);
     }, delay);
   };
@@ -77,9 +78,15 @@ const CurtainIntro = ({ onFinish }) => {
   return (
     <div
       className="fixed inset-0 z-[100] cursor-pointer overflow-hidden"
-      style={{ background: '#0d0000' }}
       onClick={handleCurtainClick}
     >
+      {/* Background layer that fades out when curtains open */}
+      <motion.div 
+        animate={{ opacity: isOpened ? 0 : 1 }}
+        transition={{ duration: 1 }}
+        className="absolute inset-0 bg-[#0d0000] z-[40]"
+      />
+
       {/* Top Valance / Pelmet */}
       <div
         className="absolute top-0 left-0 w-full z-[60]"

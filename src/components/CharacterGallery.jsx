@@ -23,7 +23,7 @@ const CharacterCard = ({ senior, onClick }) => {
         <motion.img
           src={senior.image}
           alt={senior.name}
-          className="h-full w-full object-cover transition-all duration-700 grayscale-0 md:grayscale md:brightness-75 group-hover:grayscale-0 group-hover:brightness-110 active:grayscale-0 active:brightness-110"
+          className="h-full w-full object-cover transition-all duration-700 grayscale-0 lg:grayscale lg:brightness-75 group-hover:grayscale-0 group-hover:brightness-110 active:grayscale-0 active:brightness-110"
         />
         <AnimatePresence>
           {isHovered && (

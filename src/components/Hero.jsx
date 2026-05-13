@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const Hero = ({ onStartJourney }) => {
+const Hero = ({ onStartJourney, isOpening }) => {
   return (
     <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-background">
       
@@ -23,10 +23,17 @@ const Hero = ({ onStartJourney }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
       </div>
 
-      <div className="relative z-30 text-center px-4 max-w-5xl">        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
+      {/* Spotlight Reveal Overlay */}
+      <motion.div
+        initial={{ clipPath: 'circle(0% at 5% 10%)', filter: 'blur(20px)', background: 'radial-gradient(circle at 5% 10%, rgba(255,255,255,0.2) 0%, transparent 70%)' }}
+        animate={isOpening ? { clipPath: 'circle(180% at 5% 10%)', filter: 'blur(0px)' } : {}}
+        transition={{ duration: 5, delay: 1.5, ease: [0.16, 1, 0.3, 1] }}
+        className="relative z-30 text-center px-4 max-w-5xl py-20 rounded-3xl"
+      >
+        <motion.div
+          initial={{ scale: 0.95 }}
+          animate={isOpening ? { scale: 1 } : {}}
+          transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1], delay: 2.5 }}
         >
           <span className="text-white/40 text-[10px] md:text-base font-medium tracking-[0.4em] md:tracking-[0.6em] uppercase mb-4 md:mb-6 block">
             The Graduation Chapter
@@ -38,18 +45,18 @@ const Hero = ({ onStartJourney }) => {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1, duration: 1 }}
+          initial={{ y: 20 }}
+          animate={isOpening ? { y: 0 } : {}}
+          transition={{ delay: 3.5, duration: 1 }}
         >
           <button 
             onClick={onStartJourney}
-            className="group relative px-14 py-6 bg-white/40 text-black rounded-full font-bold text-xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_60px_rgba(255,255,255,0.1)] uppercase tracking-widest"
+            className="group relative px-14 py-6 bg-white/30 text-black rounded-full font-bold text-xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_60px_rgba(255,255,255,0.1)] uppercase tracking-widest"
           >
             Start Journey
           </button>
         </motion.div>
-      </div>
+      </motion.div>
 
       {/* Scroll Down Indicator */}
       <motion.div 

@@ -75,6 +75,7 @@ const MOODS_DATA = [
 function App() {
   const navigate = useNavigate();
   const [showCurtain, setShowCurtain] = useState(true);
+  const [isCurtainOpening, setIsCurtainOpening] = useState(false);
   const [isMoodModalOpen, setIsMoodModalOpen] = useState(false);
   const [selectedMoodId, setSelectedMoodId] = useState(null);
   const [currentView, setCurrentView] = useState('home'); 
@@ -122,10 +123,13 @@ function App() {
   return (
     <div className="bg-background text-white selection:bg-white/20">
         {showCurtain && (
-          <CurtainIntro onFinish={() => setShowCurtain(false)} />
+          <CurtainIntro 
+            onFinish={() => setShowCurtain(false)} 
+            onStartOpening={() => setIsCurtainOpening(true)}
+          />
         )}
         
-        <main className={`transition-opacity duration-1000 ${showCurtain ? 'opacity-0 h-screen overflow-hidden' : 'opacity-100'}`}>
+        <main className={`transition-opacity duration-1000 ${(showCurtain && !isCurtainOpening) ? 'opacity-0 h-screen overflow-hidden' : 'opacity-100'}`}>
           <Navbar onStartJourney={() => setIsMoodModalOpen(true)} onNavClick={handleNavClick} />
 
           <Routes>
@@ -135,7 +139,7 @@ function App() {
                 {/* HOME view */}
                 {currentView === 'home' && (
                   <div className="h-screen overflow-hidden">
-                    <Hero onStartJourney={() => setIsMoodModalOpen(true)} />
+                    <Hero onStartJourney={() => setIsMoodModalOpen(true)} isOpening={isCurtainOpening} />
                   </div>
                 )}
 
