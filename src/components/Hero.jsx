@@ -23,39 +23,41 @@ const Hero = ({ onStartJourney, isOpening }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
       </div>
 
-      {/* Spotlight Reveal Overlay */}
+      {/* Full-screen Spotlight Reveal Overlay */}
       <motion.div
-        initial={{ clipPath: 'circle(0% at 5% 10%)', filter: 'blur(20px)', background: 'radial-gradient(circle at 5% 10%, rgba(255,255,255,0.2) 0%, transparent 70%)' }}
-        animate={isOpening ? { clipPath: 'circle(180% at 5% 10%)', filter: 'blur(0px)' } : {}}
+        initial={{ clipPath: 'circle(0% at 5% 10%)', filter: 'blur(20px)', background: 'radial-gradient(circle at 5% 10%, rgba(255,255,255,0.1) 0%, transparent 80%)' }}
+        animate={isOpening ? { clipPath: 'circle(200% at 5% 10%)', filter: 'blur(0px)' } : {}}
         transition={{ duration: 5, delay: 1.5, ease: [0.16, 1, 0.3, 1] }}
-        className="relative z-30 text-center px-4 max-w-5xl py-20 rounded-3xl"
+        className="absolute inset-0 z-30 flex items-center justify-center bg-black/20"
       >
-        <motion.div
-          initial={{ scale: 0.95 }}
-          animate={isOpening ? { scale: 1 } : {}}
-          transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1], delay: 2.5 }}
-        >
-          <span className="text-white/40 text-[10px] md:text-base font-medium tracking-[0.4em] md:tracking-[0.6em] uppercase mb-4 md:mb-6 block">
-            The Graduation Chapter
-          </span>
-          <h1 className="text-4xl md:text-[8rem] lg:text-[10rem] font-display tracking-tight leading-[1.1] md:leading-[0.9] mb-8 md:mb-12 text-white/60">
-            Circle of 2026:<br />
-            <span className="text-white/60 drop-shadow-[0_0_30px_rgba(255,255,255,0.3)] italic">The LAST STRETCH.</span>
-          </h1>
-        </motion.div>
-
-        <motion.div
-          initial={{ y: 20 }}
-          animate={isOpening ? { y: 0 } : {}}
-          transition={{ delay: 3.5, duration: 1 }}
-        >
-          <button 
-            onClick={onStartJourney}
-            className="group relative px-14 py-6 bg-white/30 text-black rounded-full font-bold text-xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_60px_rgba(255,255,255,0.1)] uppercase tracking-widest"
+        <div className="text-center px-4 max-w-5xl">
+          <motion.div
+            initial={{ scale: 0.95 }}
+            animate={isOpening ? { scale: 1 } : {}}
+            transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1], delay: 2.5 }}
           >
-            Start Journey
-          </button>
-        </motion.div>
+            <span className="text-white/40 text-[10px] md:text-base font-medium tracking-[0.4em] md:tracking-[0.6em] uppercase mb-4 md:mb-6 block">
+              The Graduation Chapter
+            </span>
+            <h1 className="text-4xl md:text-[8rem] lg:text-[10rem] font-display tracking-tight leading-[1.1] md:leading-[0.9] mb-8 md:mb-12 text-white/60">
+              Circle of 2026:<br />
+              <span className="text-white/60 drop-shadow-[0_0_30px_rgba(255,255,255,0.3)] italic">The LAST STRETCH.</span>
+            </h1>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 20 }}
+            animate={isOpening ? { y: 0 } : {}}
+            transition={{ delay: 3.5, duration: 1 }}
+          >
+            <button 
+              onClick={onStartJourney}
+              className="group relative px-14 py-6 bg-white/30 text-black rounded-full font-bold text-xl transition-all hover:scale-105 active:scale-95 shadow-[0_0_60px_rgba(255,255,255,0.1)] uppercase tracking-widest"
+            >
+              Start Journey
+            </button>
+          </motion.div>
+        </div>
       </motion.div>
 
       {/* Scroll Down Indicator */}
