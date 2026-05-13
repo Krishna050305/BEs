@@ -86,8 +86,8 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
               className="relative w-full aspect-video rounded-sm overflow-hidden border border-white/20 shadow-[0_0_100px_rgba(255,255,255,0.05)]"
             >
               <img
-                src="https://res.cloudinary.com/dgx3aoymz/image/upload/v1778570186/sy-be_zp2pjn.jpg"
-                alt="SY BEs Highlight"
+                src="https://res.cloudinary.com/dyzb6lzgl/image/upload/q_auto/f_auto/v1778647533/WhatsApp_Image_2026-05-13_at_10.11.06_blho4x.jpg"
+                alt="SY-TE-BE Gang"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black opacity-80" />
@@ -108,7 +108,7 @@ const CreditsOverlay = ({ isOpen, onClose }) => {
           {/* Cast Section - Text Only to avoid repetition */}
           <section className="flex flex-col gap-24 md:gap-48 w-full max-w-4xl px-8 items-center">
             <h2 className="text-xl md:text-5xl tracking-[0.3em] md:tracking-[0.5em] text-white/70 uppercase font-display font-bold border-b border-white/10 pb-8 md:pb-12 w-full text-center">
-              Featuring The Class of 2026
+              Featuring The Circle of 2026
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 md:gap-x-32 gap-y-12 md:gap-y-16 w-full text-center">

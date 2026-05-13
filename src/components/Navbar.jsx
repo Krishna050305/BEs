@@ -20,7 +20,7 @@ const Navbar = ({ onStartJourney, onNavClick }) => {
         className="text-lg md:text-2xl font-display tracking-[0.3em] md:tracking-widest text-white cursor-pointer mb-4 md:mb-0"
         onClick={() => onNavClick && onNavClick('home')}
       >
-        CLASS OF 2026
+        CIRCLE OF 2026
       </div>
 
       {/* Nav Links - Scrollable on mobile, fixed gap on desktop */}

@@ -12,7 +12,7 @@ const Footer = () => {
       
       <div className="max-w-7xl mx-auto flex flex-col items-center text-center relative z-10">
         <div className="text-4xl font-display tracking-[0.2em] mb-12 text-white">
-          CLASS OF 2026
+          CIRCLE OF 2026
         </div>
         
         <p className="text-5xl md:text-7xl font-display text-white/20 mb-16 leading-tight uppercase">

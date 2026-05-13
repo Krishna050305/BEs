@@ -32,7 +32,7 @@ const Hero = ({ onStartJourney }) => {
             The Graduation Chapter
           </span>
           <h1 className="text-4xl md:text-[8rem] lg:text-[10rem] font-display tracking-tight leading-[1.1] md:leading-[0.9] mb-8 md:mb-12 text-white/60">
-            Class of 2026:<br />
+            Circle of 2026:<br />
             <span className="text-white/60 drop-shadow-[0_0_30px_rgba(255,255,255,0.3)] italic">The LAST STRETCH.</span>
           </h1>
         </motion.div>
