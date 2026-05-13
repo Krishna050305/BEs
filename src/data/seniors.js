@@ -281,7 +281,7 @@ export const SENIORS = [
     image: "https://res.cloudinary.com/dgx3aoymz/image/upload/v1776275631/IMG_20260214_184914483_HDR_c5lihf.jpg",
     size: "large",
     songs: [
-      { id: 1, title: "Chiggy-Wiggy", duration: "5:10", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530429/LYRICAL__Chiggy_Wiggy___Blue____Kylie_Minogue__Akshay_Kumar___Sonu_Nigam___A.R._Rahman_48k_cyi1zu.mp3" },
+      { id: 1, title: "Chiggy-Wiggy", duration: "5:10", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778650823/WhatsApp_Audio_2026-05-13_at_11.08.59_vo3ung.mp3" },
       { id: 2, title: "Gori Gori", duration: "3:50", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530428/Gori_Gori__Full_Song__Main_Hoon_Na___Shahrukh_Khan___Farah_Khan___T-series_48k_ujxada.mp3" },
       { id: 3, title: "Pee Loon", duration: "5:00", url: "https://res.cloudinary.com/dyzb6lzgl/video/upload/q_auto/f_auto/v1778530590/_Pee_Loon__Lyrical_Song___Once_Upon_A_Time_in_Mumbai___Pritam___Emraan_Hashmi__Prachi_Desai_48k_vrg9wa.mp3" }
     ],
